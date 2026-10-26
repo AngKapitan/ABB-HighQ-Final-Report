@@ -1,0 +1,64 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces An example of power delivery technology for a laptop charger. The charger on the right is very small compared to the conventional one on the left, due to PD, and is connected to the PC via USB-C.}}{3}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces PFC boost, LLC, and Buck converter combination circuit in \blx@tocontentsinit {0}\cite {Kim2010,Lin2016}.}}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces PFC boost with AHB flyback in \blx@tocontentsinit {0}\cite {Li2019,MedinaGarcia2022}.}}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Conventional boost PFC flyback converter.}}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces A two-phase interleaved flyback PFC rectifier.}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Conventional transformer of the two-phase interleaved flyback PFC rectifier.}}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Two-phase interleaved flyback PFC rectifier with the proposed integrated transformer.}}{10}{figure.caption.12}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The proposed integrated transformer in \blx@tocontentsinit {0}\cite {Ishihara2015}.}}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The proposed integrated transformer in \blx@tocontentsinit {0}\cite {Taheri2011}.}}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The proposed integrated transformer in \blx@tocontentsinit {0}\cite {Qian2008}.}}{19}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The proposed integrated magnetic component in \blx@tocontentsinit {0}\cite {Yan2002}.}}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The proposed non-coupled integrated transformer in this study.}}{23}{figure.caption.17}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The proposed two-phase interleaved flyback PFC rectifier.}}{24}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The proposed non-coupled integrated transformer in this study.}}{25}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Flux densities inside the proposed integrated transformer. $B_l$ represents the flux density in the left leg, $B_r$ represents the flux density in the right leg, and $B_c$ represents the flux density in the right leg.}}{26}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Integrated transformer separated according to AC operation cycle.}}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Key electrical and flux density waveforms of the circuit when $D\leq 0.5$ and $D \leq 0.5 \frac {nV_O}{V_{\textup {in, max}}}$.}}{29}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Operation of the proposed circuit with the transformer at Mode 1, $t_1 <t< t_2$.}}{30}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Operation of the proposed circuit with the transformer at Mode 2, $t_2 <t< t_3$.}}{31}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Operation of the proposed circuit with the transformer at Mode 3, $t_3 <t< t_4$.}}{32}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Operation of the proposed circuit with the transformer at Mode 4, $t_4 <t< t_5$.}}{33}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Operation of the proposed circuit with the transformer at Mode 5, $t_5 <t< t_6$.}}{34}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Operation of the proposed circuit with the transformer at Mode 6, $t_6 <t< t_7$.}}{35}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Equivalent magnetic circuits for the proposed transformer.}}{37}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Magnetic flux density waveforms for Case 1: $D\leq 0.5$ and $D \leq 0.5 \frac {nV_O}{V_{\textup {in, max}}}$.}}{39}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Magnetic flux density waveforms for Case 2: $D\leq 0.5$ and $D > 0.5 \frac {nV_O}{V_{\textup {in, max}}}$.}}{40}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Magnetic flux density waveforms for Case 3: $D> 0.5$.}}{43}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces EE-core with a simplified $A_w$ and $A_c$ \blx@tocontentsinit {0}\cite {Kimura2015}.}}{46}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Representation of the conventional transformer with windings.}}{47}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Representation of the proposed transformer with windings.}}{48}{figure.caption.36}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Geometric representation of the transformer. Here, the effective cross-sectional area is given as $A_{mo}$ for the outer legs and $A_{mc}$ for the center leg. The effective magnetic path length is given as $l_{mo}$ for the outer legs and $l_{mc}$ for the center leg.}}{55}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Magnetic resistances for the proposed transformer. Here, the magnetic resistance is given as $R_{mo}$ for the outer legs and $R_{mc}$ for the center leg.}}{57}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Equivalent magnetic circuits for the proposed transformer.}}{58}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The air gaps of the proposed transformer, with $l_{mo_{air}} > l_{mc_{air}}$.}}{59}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The air gaps of the proposed transformer, with $l_{mc_{air}} > l_{mo_{air}}$.}}{60}{figure.caption.41}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The prototype two-phase interleaved flyback PFC rectifier for the proposed non-coupled integrated transformer design evaluation.}}{62}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Actual prototype two-phase interleaved flyback PFC rectifier for the proposed non-coupled integrated transformer design evaluation.}}{64}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagram representation of the proposed non-coupled integrated transformer.}}{68}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Actual prototype non-coupled integrated transformer used for design method verification.}}{68}{figure.caption.49}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Transformer coupling coefficient measurement method.}}{70}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Simulation circuit for the two-phase interleaved flyback recitfier with the proposed non-coupled integrated transformer in PLECS.}}{72}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The proposed non-coupled integrated transformer in PLECS.}}{75}{figure.caption.55}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Simulated flux density waveforms for the proposed transformer.}}{76}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces New magnetic model for the proposed non-coupled integrated transformer used in simulation.}}{77}{figure.caption.57}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Simulated waveforms of a two-phase interleaved flyback PFC rectifier with the proposed non-coupled integrated transformer at 100 W, two-phase AC drive.}}{79}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Simulated waveforms of a two-phase interleaved flyback PFC rectifier with the proposed non-coupled integrated transformer at 10 W, two-phase AC drive.}}{80}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Simulated waveforms of a two-phase interleaved flyback PFC rectifier with the proposed non-coupled integrated transformer at 240 W, two-phase AC drive.}}{81}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Simulated waveforms of a two-phase interleaved flyback PFC rectifier with the proposed non-coupled integrated transformer at 120 W, one-phase AC drive.}}{83}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Magnetic elements used in the efficiency comparison.}}{85}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Comparison of converter efficiency between circuit with conventional and proposed transformer (2-phase drive).}}{86}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Simulated waveforms of a two-phase interleaved flyback PFC rectifier with the proposed non-coupled integrated transformer at 120 W, one-phase AC drive, with $k_{N_{12} N_{34}, N_{56}N_{78}} = 0.8$.}}{88}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Circuit efficiency with respect to $k_{N_{12} N_{34}, N_{56}N_{78}}$.}}{89}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Experimental setup for the verification of operation of the proposed non-coupled integrated transformer.}}{91}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Experimental waveforms of a two-phase interleaved flyback PFC rectifier with the proposed non-coupled integrated transformer at 100 W, two-phase AC drive. Here, $v_{in}$: 50 V/div.; $V_o$: 20 V/div., $v_{ds_1}$, $v_{ds_2}$: 100 V/div., $i_{S_1}$, $i_{S_2}$: 1 A/div., $i_{D_1}$, $i_{D_2}$: 5 A/div.; $v_{ds}$ stands for drain-source voltage.}}{93}{figure.caption.67}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Experimental waveforms of a two-phase interleaved flyback PFC rectifier with the proposed non-coupled integrated transformer at 10 W, two-phase AC drive. Here, $v_{in}$: 50 V/div.; $V_o$: 10 V/div., $v_{ds_1}$, $v_{ds_2}$: 100 V/div., $i_{S_1}$, $i_{S_2}$: 500 mA/div., $i_{D_1}$, $i_{D_2}$: 1 A/div.; $v_{ds}$ stands for drain-source voltage.}}{95}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Experimental waveforms of a two-phase interleaved flyback PFC rectifier with the proposed non-coupled integrated transformer at 240 W, two-phase AC drive. Here, $v_{in}$: 50 V/div.; $V_o$: 10 V/div., $v_{ds_1}$, $v_{ds_2}$: 100 V/div., $i_{S_1}$, $i_{S_2}$: 2 A/div., $i_{D_1}$, $i_{D_2}$: 5 A/div.; $v_{ds}$ stands for drain-source voltage.}}{96}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Experimental waveforms of a two-phase interleaved flyback PFC rectifier with the proposed non-coupled integrated transformer at 32.5 W, one-phase AC drive of $S_1$. Here, $v_{in}$: 50 V/div.; $V_o$: 20 V/div., $v_{ds_1}$, $v_{ds_2}$: 100 V/div., $i_{S_1}$, $i_{S_2}$: 2 A/div., $i_{D_1}$, $i_{D_2}$: 2 A/div.; $v_{ds}$ stands for drain-source voltage.}}{98}{figure.caption.70}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Experimental efficiency of the prototype two-phase interleaved flyback PFC rectifier with the proposed non-coupled integrated transformer (2-phase drive).}}{99}{figure.caption.71}%
+\addvspace {10\p@ }

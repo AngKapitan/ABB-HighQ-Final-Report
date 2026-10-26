@@ -1,0 +1,128 @@
+\documentclass[12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage[a4paper,width=150mm,top=35mm,bottom=25mm,bindingoffset=0mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{lscape}
+\usepackage{hyperref}
+\usepackage{CJKutf8}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{upgreek}
+\usepackage{array}
+\pagestyle{fancyplain}% <- use fancyplain instead fancy
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{12pt}
+
+\usepackage{titlesec}
+\captionsetup[table]{position=top} % Set table captions on top
+\captionsetup{font=small} % Bold labels and set font size to small
+
+% --- ADD THESE LINES ---
+\usepackage{helvet} 
+\captionsetup[subfigure]{labelfont={sf}} 
+% -----------------------
+
+\titleformat{\section}
+  {\normalfont\fontsize{18}{15}\bfseries}{\thesection}{1em}{}
+
+  
+\usepackage[backend = biber, style=ieee,sorting=none]{biblatex}
+\addbibresource{references.bib}	
+
+\title{Thesis Title}
+\author{Author Name}
+\date{Day Month Year}
+
+\begin{document}
+\pagenumbering{roman} 
+
+\input{titlepage}
+
+\input{abstract}
+
+\tableofcontents
+
+
+\listoffigures
+
+
+\listoftables
+
+\doublespacing
+
+\chapter*{Acknowledgements}
+\input{Acknowledgements}
+
+\chapter{Introduction}
+\pagenumbering{arabic} 
+
+\input{chapters/introduction}
+
+\chapter{Application Topology Selection and Design}
+\input{chapters/chapter02}
+
+\chapter{Transformer Design for Enhanced Thermal Management} \label{Chapter 3}
+\input{chapters/chapter03}
+
+\chapter{Simulation Analysis}
+\input{chapters/chapter04}
+
+\chapter{Experimental Evaluation}
+\input{chapters/chapter05}
+
+\chapter{Scalability Analysis}
+\input{chapters/chapter06}
+
+
+\chapter{Summary and Conclusion}
+\input{chapters/conclusion}
+
+\singlespacing
+\phantomsection
+\addcontentsline{toc}{chapter}{Research Achievements in NU PELab}
+\chapter*{Research Achievements in Nagoya University Power Electronics Laboratory}
+\input{chapters/ResearchAchievements.tex}
+
+\singlespacing
+\printbibliography[heading=bibintoc,title={Bibliography}]
+\doublespacing
+% --- ADD THESE LINES TO CREATE THE TOC ENTRY ---
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Appendices} 
+% -----------------------------------------------
+
+\appendix % <--- USE THIS ONLY ONCE!
+\phantomsection
+\chapter{Downsizing Effect Calculation}\label{app:downsizing}
+\input{chapters/appendix_downsizing.tex}
+
+\singlespacing
+\phantomsection
+\chapter{Data for Figure 2.2}\label{app:converter_trends}
+\input{chapters/appendix.tex}
+\doublespacing
+\phantomsection
+\chapter{Sample Simulations for Section 2.4}\label{app:simulation}
+\input{chapters/appendix_2.tex}
+
+\phantomsection
+\chapter{Example Analytical Calculation}\label{app:model}
+\input{chapters/appendix_3.tex}
+
+\phantomsection
+\chapter{Simulation Settings}\label{app:ansys}
+\input{chapters/appendix_4.tex}
+\end{document}

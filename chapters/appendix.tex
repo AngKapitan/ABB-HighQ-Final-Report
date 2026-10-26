@@ -1,0 +1,83 @@
+This appendix provides the comprehensive data utilized to generate Figure \ref{fig:HighPower}. 
+
+\begingroup
+\renewcommand{\arraystretch}{1.5}
+\setlength{\tabcolsep}{3pt} % <--- Shrinks the white space between columns
+\footnotesize 
+% \scriptsize % <--- Uncomment this line and delete \footnotesize if it STILL doesn't fit
+
+% V--- Reduced 0.45 to 0.35 here ---V
+\begin{longtable}{c p{0.35\textwidth} l c c c c}
+\caption{Comprehensive Literature Data for High-Power DC-DC Converter Trends}
+\label{tab:lit_review_data} \\
+\toprule
+\textbf{Ref.} & \textbf{Publication Source} & \textbf{Topology} & \textbf{Freq.} & \textbf{Input} & \textbf{Power} & \textbf{Eff.} \\
+& & & \textbf{($f_{sw}$ kHz)} & \textbf{($V_{\mathrm{in}}$ V)} & \textbf{($P_O$ kW)} & \textbf{($\eta$ \%)} \\
+\midrule
+\endfirsthead
+
+% --- Footer for pages that break ---
+\midrule
+\multicolumn{7}{r}{{Continued on next page}} \\
+\endfoot
+
+% --- Final footer for the very end of the table ---
+\bottomrule
+\endlastfoot
+
+% --- 2013 ---
+[5] & J.-H. Jung \textit{et al.}, ``Design Methodology of Bidirectional CLLC Resonant Converter for High-Frequency Isolation of DC Distribution Systems,'' \textit{IEEE Trans. Power Electron.}, vol. 28, no. 4, pp. 1741--1755, Apr. 2013. & CLLC (1-phase) & -- & -- & 5 & 97.8 \\
+
+% --- 2014 ---
+[13] & X. She \textit{et al.}, ``Design and Demonstration of a 3.6kV--120V/10KVA Solid State Transformer for Smart Grid Application,'' in \textit{Proc. IEEE APEC}, Fort Worth, TX, USA, 2014, pp. 3429--3436. & Multi-Level DAB & -- & -- & 9 & 85.0 \\
+
+% --- 2015 ---
+[6] & G. Liu \textit{et al.}, ``Bidirectional CLLC Resonant DC-DC Converter with Integrated Magnetic for OBCM Application,'' in \textit{Proc. IEEE ICIT}, Seville, Spain, 2015, pp. 946--951. & CLLC (1-phase) & -- & -- & 3.3 & 95.5 \\
+
+[1] & N. H. Baars \textit{et al.}, ``A 80-kW Isolated DC--DC Converter for Railway Applications,'' \textit{IEEE Trans. Power Electron.}, vol. 30, no. 12, pp. 6639--6647, Dec. 2015. & DAB (3-phase) & 20 & 1270 & 80 & 95.6 \\
+
+% --- 2016 ---
+[2] & C. Gammeter, F. Krismer, and J. W. Kolar, ``Comprehensive Conceptualization, Design, and Experimental Verification of a Weight-Optimized All-SiC 2 kV/700 V DAB for an Airborne Wind Turbine,'' \textit{IEEE J. Emerg. Sel. Topics Power Electron.}, vol. 4, no. 2, pp. 638--656, Jun. 2016. & DAB (1-phase) & 100 & 2000 & 6.25 & 97.5 \\
+
+% --- 2018 ---
+[18] & B. Li, Q. Li, and F. C. Lee, ``A WBG Based Three Phase 12.5 kW 500 kHz CLLC Resonant Converter with Integrated PCB Winding Transformer,'' in \textit{Proc. IEEE APEC}, San Antonio, TX, USA, 2018, pp. 469--475. & CLLC (3-phase) & 500 & -- & 12.5 & 97.3 \\
+
+[15] & J. Lu \textit{et al.}, ``A Modular-Designed Three-Phase High-Efficiency High-Power-Density EV Battery Charger Using Dual/Triple-Phase-Shift Control,'' \textit{IEEE Trans. Power Electron.}, vol. 33, no. 9, pp. 8091--8100, Sep. 2018. & DAB (3-phase) & -- & -- & 20 & 98.0 \\
+
+% --- 2019 ---
+[17] & P. He \textit{et al.}, ``Design of a 1-MHz High-Efficiency High-Power-Density Bidirectional GaN-Based CLLC Converter for Electric Vehicles,'' \textit{IEEE Trans. Veh. Technol.}, vol. 68, no. 1, pp. 213--223, Jan. 2019. & CLLC (1-phase) & 400 & -- & 3.3 & 97.0 \\
+
+[8] & Q. Zhu \textit{et al.}, ``7.2-kV Single-Stage Solid-State Transformer Based on the Current-Fed Series Resonant Converter and 15-kV SiC MOSFETs,'' \textit{IEEE Trans. Power Electron.}, vol. 34, no. 2, pp. 1099--1112, Feb. 2019. & LLC (1-phase) & 37 & -- & 12 & 97.8 \\
+
+[12] & J. He \textit{et al.}, ``Design and Implementation of a 150kW High Frequency Transformer in High Voltage Large Power Solid State Transformer Consist of Multi-DABs,'' in \textit{Proc. ICEMS}, Harbin, China, 2019, pp. 1--6. & Multi-Level DAB & 5 & 1000 & 150 & 97.9 \\
+
+% --- 2020 ---
+[4] & L. Schrittwieser, M. Leibl, and J. W. Kolar, ``99\% Efficient Isolated Three-Phase Matrix-Type DAB Buck--Boost PFC Rectifier,'' \textit{IEEE Trans. Power Electron.}, vol. 35, no. 1, pp. 138--157, Jan. 2020. & DAB (3-phase) & 31 & -- & 8 & 99.0 \\
+
+[10] & W. Xu \textit{et al.}, ``Design of 1500V/200kW 99.6\% Efficiency Dual Active Bridge Converters Based on 1700V SiC Power MOSFET Module,'' in \textit{Proc. IEEE ECCE}, Detroit, MI, USA, 2020, pp. 6000--6007. & DAB (1-phase) & 15 & 1500 & 200 & 99.3 \\
+
+[11] & Z. Guo \textit{et al.}, ``Design of a 200 kW Medium-Frequency Transformer (MFT) With High Insulation Capability,'' in \textit{Proc. IEEE ECCE}, Detroit, MI, USA, 2020, pp. 3471--3477. & DAB (1-phase) & 15 & 2400 & 40 & 99.0 \\
+
+% --- 2021 ---
+[3] & H. Farooq \textit{et al.}, ``Loss Analysis of Full Bridge LLC Resonant Converter with Wide Input Range Using Si and SiC Switches,'' in \textit{Proc. ICET}, Islamabad, Pakistan, 2021, pp. 1--6. & LLC (1-phase) & 100 & 300 & 3 & 97.8 \\
+
+[9] & Z. Guo \textit{et al.}, ``Design and Optimization of a 200-kW Medium-Frequency Transformer for Medium-Voltage SiC PV Inverters,'' \textit{IEEE Trans. Power Electron.}, vol. 36, no. 9, pp. 10548--10560, Sep. 2021. & DAB (1-phase) & 15 & 1300 & 200 & 99.8 \\
+
+% --- 2022 ---
+[21] & S. Lu \textit{et al.}, ``A High-Efficiency 80-kW Split Planar Transformer for Medium-Voltage Modular Power Conversion,'' \textit{IEEE Trans. Power Electron.}, vol. 37, no. 8, pp. 8762--8766, Aug. 2022. & CLLC (1-phase) & 43 & 850 & 80 & 99.3 \\
+
+% --- 2023 ---
+[14] & Z. Guo \textit{et al.}, ``A Novel High Insulation 100 kW Medium Frequency Transformer,'' \textit{IEEE Trans. Power Electron.}, vol. 38, no. 1, pp. 112--117, Jan. 2023. & DAB (1-phase) & 20 & 3500 & 100 & 97.5 \\
+
+[19] & C. Zhu, ``High-Efficiency, Medium-Voltage-Input, Solid-State-Transformer-Based 400-kW/1000V/400A Extreme Fast Charger for Electric Vehicles,'' Tech. Rep., Delta Electronics, Livonia, MI, USA, Jul. 2023. & CLLC (1-phase) & -- & 13200 & 400 & 96.5 \\
+
+% --- 2024 ---
+[16] & F. Jin \textit{et al.}, ``A High-Efficiency High-Density Three-Phase CLLC Resonant Converter With a Universally Derived Three-Phase Integrated Transformer for On-Board-Charger Application,'' \textit{IEEE Trans. Power Electron.}, vol. 39, no. 4, pp. 4350--4366, Apr. 2024. & CLLC (3-phase) & -- & 800 & 16.5 & 98.8 \\
+
+[20] & T. Yuan, F. Jin, and Q. Li, ``A 22-kW On-Board Charger (OBC) with an Integrated Planar Inductor and Transformer,'' in \textit{Proc. IEEE APEC}, Long Beach, CA, USA, 2024, pp. 1300--1304. & CLLC (1-phase) & 250 & 750 & 22 & 98.4 \\
+
+% --- Undated ---
+[7] & Infineon Technologies, Internal Technical Data / Application Note. & CLLC (1-phase) & -- & -- & 11 & 97.8 \\
+
+\end{longtable}
+\endgroup

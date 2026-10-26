@@ -1,0 +1,1006 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{MazaOrtega2017}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=1a746fea7a9093bd32b77ce4e1f6cfeb}{%
+           family={Maza-Ortega},
+           familyi={M\bibinithyphendelim O\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b61ec6f3a8853b356788e3539c62c045}{%
+           family={Acha},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e94eff68296471956f1de521a184a63e}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{789649293210fd656d141bdf6981db4a}
+      \strng{fullhash}{789649293210fd656d141bdf6981db4a}
+      \strng{bibnamehash}{789649293210fd656d141bdf6981db4a}
+      \strng{authorbibnamehash}{789649293210fd656d141bdf6981db4a}
+      \strng{authornamehash}{789649293210fd656d141bdf6981db4a}
+      \strng{authorfullhash}{789649293210fd656d141bdf6981db4a}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Modern Power Systems and Clean Energy}
+      \field{title}{Overview of {Power} {Electronics} {Technology} and {Applications} in {Power} {Generation}, {Transmission}, and {Distribution}}
+      \field{volume}{5}
+      \field{year}{2017}
+      \field{pages}{499\bibrangedash 514}
+      \range{pages}{16}
+    \endentry
+    \entry{Abuelnaga2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d723aa31d74071f96b37a912a490d111}{%
+           family={Abuelnaga},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9b9ac0ae8f5336f3699e1369d80b3432}{%
+           family={Narimani},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=97731d1e8d0d73c367d299d8cbcb647a}{%
+           family={Bahman},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{336b88146c46dc7bfbf5e3d9ba5c25ba}
+      \strng{fullhash}{336b88146c46dc7bfbf5e3d9ba5c25ba}
+      \strng{bibnamehash}{336b88146c46dc7bfbf5e3d9ba5c25ba}
+      \strng{authorbibnamehash}{336b88146c46dc7bfbf5e3d9ba5c25ba}
+      \strng{authornamehash}{336b88146c46dc7bfbf5e3d9ba5c25ba}
+      \strng{authorfullhash}{336b88146c46dc7bfbf5e3d9ba5c25ba}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Power Electronics}
+      \field{title}{Power {Electronic} {Converter} {Reliability} and {Prognosis} {Review} {Focusing} on {Power} {Switch} {Module} {Failures}}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{pages}{865\bibrangedash 880}
+      \range{pages}{16}
+    \endentry
+    \entry{Hart2011}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bfa0ccb8483cd90aacd9d855fd3c7400}{%
+           family={Hart},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill Education}%
+      }
+      \strng{namehash}{bfa0ccb8483cd90aacd9d855fd3c7400}
+      \strng{fullhash}{bfa0ccb8483cd90aacd9d855fd3c7400}
+      \strng{bibnamehash}{bfa0ccb8483cd90aacd9d855fd3c7400}
+      \strng{authorbibnamehash}{bfa0ccb8483cd90aacd9d855fd3c7400}
+      \strng{authornamehash}{bfa0ccb8483cd90aacd9d855fd3c7400}
+      \strng{authorfullhash}{bfa0ccb8483cd90aacd9d855fd3c7400}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Power {Electronics}}
+      \field{year}{2011}
+    \endentry
+    \entry{USBIF2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f38c5916921cee109439e541e9c1ffae}{%
+           family={PR},
+           familyi={P\bibinitperiod},
+           given={USB-IF},
+           giveni={U\bibinithyphendelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{f38c5916921cee109439e541e9c1ffae}
+      \strng{fullhash}{f38c5916921cee109439e541e9c1ffae}
+      \strng{bibnamehash}{f38c5916921cee109439e541e9c1ffae}
+      \strng{authorbibnamehash}{f38c5916921cee109439e541e9c1ffae}
+      \strng{authornamehash}{f38c5916921cee109439e541e9c1ffae}
+      \strng{authorfullhash}{f38c5916921cee109439e541e9c1ffae}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{USB} {Promoter} {Group} {Announces} {USB} {Power} {Delivery} {Specification} {Revision} 3.1}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.usb.org/sites/default/files/2021-05/USB%20PG%20USB%20PD%203.1%20DevUpdate%20Announcement_FINAL.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.usb.org/sites/default/files/2021-05/USB%20PG%20USB%20PD%203.1%20DevUpdate%20Announcement_FINAL.pdf
+      \endverb
+    \endentry
+    \entry{MedinaGarcia2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=40018d58976cad122c9d82d84cc00e0a}{%
+           family={Medina-Garcia},
+           familyi={M\bibinithyphendelim G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5e6dbb0d24b8448daf29d9fc0591705f}{%
+           family={Cruz-Cozar},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a95fde3dc641f64772acb623043bb87b}{%
+           family={Morales-Santos},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=a7bd268c4591b81eb2a85434ea67e988}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=44bd0d14a21c38843a7da11e0f4509bb}{%
+           family={Schlenk},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{859d35e419c011daac3fd6ef8cbaae82}
+      \strng{fullhash}{2a777306eafab153d03aeae66af63612}
+      \strng{bibnamehash}{2a777306eafab153d03aeae66af63612}
+      \strng{authorbibnamehash}{2a777306eafab153d03aeae66af63612}
+      \strng{authornamehash}{859d35e419c011daac3fd6ef8cbaae82}
+      \strng{authorfullhash}{2a777306eafab153d03aeae66af63612}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{month}{8}
+      \field{title}{A {High-Efficiency} {Isolated} {Wide} {Voltage} {Range} {DC-DC} {Converter} {Using} {WBG} {Devices}}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{84818\bibrangedash 84825}
+      \range{pages}{8}
+    \endentry
+    \entry{Kim2010}{article}{}
+      \name{author}{5}{}{%
+        {{hash=dac62775aa0f48eafb4780227e7f344c}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={B.\bibnamedelimi C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c24e5253e8c984c26ff3006ed54d426d}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={K.\bibnamedelimi B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=4315191e51747e4ac288313bf38376f3}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={C.\bibnamedelimi E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=854d87f3b76f6910e6ea341c19dd80e6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={B.\bibnamedelimi H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5b77d2a0a9cc1e9972559acbcf0df5da}{%
+           family={Moon},
+           familyi={M\bibinitperiod},
+           given={G.W.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e0c08a169c3ad4b0157d3e470143910}
+      \strng{fullhash}{05f1047c223bf81fa768e541bc22ec95}
+      \strng{bibnamehash}{05f1047c223bf81fa768e541bc22ec95}
+      \strng{authorbibnamehash}{05f1047c223bf81fa768e541bc22ec95}
+      \strng{authornamehash}{6e0c08a169c3ad4b0157d3e470143910}
+      \strng{authorfullhash}{05f1047c223bf81fa768e541bc22ec95}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{month}{5}
+      \field{number}{9}
+      \field{title}{{LLC} {Resonant} {Converter} {with} {Adaptive} {Link-Voltage} {Variation} {for} {a} {High-Power-Density} {Adapter}}
+      \field{volume}{25}
+      \field{year}{2010}
+      \field{pages}{2248\bibrangedash 2252}
+      \range{pages}{5}
+    \endentry
+    \entry{Lin2016}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=928f1dd0edc136bd328c962df802fdd1}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Y.\bibnamedelimi C.},
+           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f8f07a616c983063aef52041706cc085}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={F.\bibnamedelimi C.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=34eb0d3545d5a6175d27a342936002b1}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=bf1afb45a50313a87b61c9f7a08f8989}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=4502ea5dcc2b2cf1ac11fe01b5f68826}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{829a28843b041dc3a4adc4a73b3f28d3}
+      \strng{fullhash}{96c0f9e564a4b53adb17daf0760192bf}
+      \strng{bibnamehash}{96c0f9e564a4b53adb17daf0760192bf}
+      \strng{authorbibnamehash}{96c0f9e564a4b53adb17daf0760192bf}
+      \strng{authornamehash}{829a28843b041dc3a4adc4a73b3f28d3}
+      \strng{authorfullhash}{96c0f9e564a4b53adb17daf0760192bf}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Applied Power Electronics Conference and Exposition}
+      \field{title}{A {Novel} {AC}-to-{DC} {Adaptor} {with} {Ultra-High} {Power} {Density} {and} {Efficiency}}
+      \field{year}{2016}
+      \field{pages}{1853\bibrangedash 1860}
+      \range{pages}{8}
+    \endentry
+    \entry{Li2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=32ecf3b8563f881c200eaaf65381ff0d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=30366da492032200808f3ae2f5279fcb}{%
+           family={Ouyang},
+           familyi={O\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a769bdc11353d6fea4969892a6ca33b8}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi A.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef05717366aad1dc0f790051ca6fde71}
+      \strng{fullhash}{ef05717366aad1dc0f790051ca6fde71}
+      \strng{bibnamehash}{ef05717366aad1dc0f790051ca6fde71}
+      \strng{authorbibnamehash}{ef05717366aad1dc0f790051ca6fde71}
+      \strng{authornamehash}{ef05717366aad1dc0f790051ca6fde71}
+      \strng{authorfullhash}{ef05717366aad1dc0f790051ca6fde71}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+      \field{month}{11}
+      \field{number}{10}
+      \field{title}{Analysis and {Optimal} {Design} of {High-Frequency} and {High-Efficiency} {Asymmetrical} {Half-Bridge} {Flyback} {Converters}}
+      \field{volume}{67}
+      \field{year}{2019}
+      \field{pages}{8312\bibrangedash 8321}
+      \range{pages}{10}
+    \endentry
+    \entry{Huang2016}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=bf1afb45a50313a87b61c9f7a08f8989}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1fe704f5c1d86a4e9a48932a89bb6cc1}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=76fff9e2193f2667e90a3dbcfea16b6f}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f8f07a616c983063aef52041706cc085}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={F.\bibnamedelimi C.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=34eb0d3545d5a6175d27a342936002b1}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d8a6ce5cbdf7eaa1ef345ab67355f2c}
+      \strng{fullhash}{eefed9ea72d581c7cb2bd4a114c4b2ea}
+      \strng{bibnamehash}{eefed9ea72d581c7cb2bd4a114c4b2ea}
+      \strng{authorbibnamehash}{eefed9ea72d581c7cb2bd4a114c4b2ea}
+      \strng{authornamehash}{2d8a6ce5cbdf7eaa1ef345ab67355f2c}
+      \strng{authorfullhash}{eefed9ea72d581c7cb2bd4a114c4b2ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE Applied Power Electronics Conference and Exposition (APEC)}
+      \field{title}{Design {Consideration} of {MHz} {Active} {Clamp} {Flyback} {Converter} {with} {GaN} {Devices} {for} {Low} {Power} {Adapter} {Application}}
+      \field{year}{2016}
+      \field{pages}{2334\bibrangedash 2341}
+      \range{pages}{8}
+    \endentry
+    \entry{Zhang2010}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8afab9bdc9b292debbeb136dfd97036c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bf1afb45a50313a87b61c9f7a08f8989}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9113b5835843309fa06504ea7ee28c1d}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=e4c2298f722ea49bb161bee0bbe2ff2f}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ec15402da35c80b1fd318cbaefba5b4}
+      \strng{fullhash}{7ea39e99e878f116474226f4c612b0e9}
+      \strng{bibnamehash}{7ea39e99e878f116474226f4c612b0e9}
+      \strng{authorbibnamehash}{7ea39e99e878f116474226f4c612b0e9}
+      \strng{authornamehash}{4ec15402da35c80b1fd318cbaefba5b4}
+      \strng{authorfullhash}{7ea39e99e878f116474226f4c612b0e9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{month}{2}
+      \field{number}{7}
+      \field{title}{A {High} {Efficiency} {Flyback} {Converter} {with} {New} {Active} {Clamp} {Technique}}
+      \field{volume}{25}
+      \field{year}{2010}
+      \field{pages}{1775\bibrangedash 1785}
+      \range{pages}{11}
+    \endentry
+    \entry{shin2013high}{article}{}
+      \name{author}{3}{}{%
+        {{hash=34c1fcd25b76ae189392cb3c9f5e639d}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0bd68a2bb6099c006b1a6bbf8c3e3ca3}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=eb90ed2905086d999a2213e3aa45b182}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={B.\bibnamedelimi H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac389e5e549fa3b3c96a10b21004294d}
+      \strng{fullhash}{ac389e5e549fa3b3c96a10b21004294d}
+      \strng{bibnamehash}{ac389e5e549fa3b3c96a10b21004294d}
+      \strng{authorbibnamehash}{ac389e5e549fa3b3c96a10b21004294d}
+      \strng{authornamehash}{ac389e5e549fa3b3c96a10b21004294d}
+      \strng{authorfullhash}{ac389e5e549fa3b3c96a10b21004294d}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{number}{9}
+      \field{title}{High-Efficiency {Bridgeless} {Flyback} {Rectifier} {with} {Bidirectional} {Switch} and {Dual} {Output} {Windings}}
+      \field{volume}{29}
+      \field{year}{2013}
+      \field{pages}{4752\bibrangedash 4762}
+      \range{pages}{11}
+    \endentry
+    \entry{Choi2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4c83e612ca6179605e076be7f68a2296}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a47ebaf5c524dc9e990eb42d804c7650}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=91fbd6136eef8862be9d5a43265d0681}{%
+           family={Imaoka},
+           familyi={I\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=61d7d130a9eebdd02b61065743dd4ca1}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{43d2454de669bf43b04eda73b45a8708}
+      \strng{fullhash}{3b18aad01addad2a0060e1afa4d2e961}
+      \strng{bibnamehash}{3b18aad01addad2a0060e1afa4d2e961}
+      \strng{authorbibnamehash}{3b18aad01addad2a0060e1afa4d2e961}
+      \strng{authornamehash}{43d2454de669bf43b04eda73b45a8708}
+      \strng{authorfullhash}{3b18aad01addad2a0060e1afa4d2e961}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEICE Technical Report}
+      \field{number}{119}
+      \field{title}{Common-Mode {Noise} {Reduction} of {Bridgeless} {Flyback} {PFC} {Rectifier} {with} {Balance} {Technique}}
+      \field{volume}{123}
+      \field{year}{2023}
+      \field{pages}{67\bibrangedash 72}
+      \range{pages}{6}
+    \endentry
+    \entry{Mok2011}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=19021054bfb97c3d55691446dfcbed44}{%
+           family={Mok},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9a09c118b2b13dd8c26514f14f346b79}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Y.\bibnamedelimi M.},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=55a58ae019e1a1c268718f201dca2c8d}{%
+           family={Loo},
+           familyi={L\bibinitperiod},
+           given={K.\bibnamedelimi H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3eaee32fdc5093b1846df496c594847}
+      \strng{fullhash}{f3eaee32fdc5093b1846df496c594847}
+      \strng{bibnamehash}{f3eaee32fdc5093b1846df496c594847}
+      \strng{authorbibnamehash}{f3eaee32fdc5093b1846df496c594847}
+      \strng{authornamehash}{f3eaee32fdc5093b1846df496c594847}
+      \strng{authorfullhash}{f3eaee32fdc5093b1846df496c594847}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 IEEE 33rd International Telecommunications Energy Conference (INTELEC)}
+      \field{title}{A {Single-Stage} {Bridgeless} {Power-Factor-Correction} {Rectifier} {Based} on {Flyback} {Topology}}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{Beak2011}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=8aafa0068fe505d465a15712b2756076}{%
+           family={Beak},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a47ebaf5c524dc9e990eb42d804c7650}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9109fa6c3ca46f26883f6c346349e0cd}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d3bf1cc9f94cc36678feb6274ff36b6c}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{416be1c88875f0bb783908f5a7b971db}
+      \strng{fullhash}{62174600d4303dda88ad093334c5a97e}
+      \strng{bibnamehash}{62174600d4303dda88ad093334c5a97e}
+      \strng{authorbibnamehash}{62174600d4303dda88ad093334c5a97e}
+      \strng{authornamehash}{416be1c88875f0bb783908f5a7b971db}
+      \strng{authorfullhash}{62174600d4303dda88ad093334c5a97e}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{8th International Conference on Power Electronics-ECCE Asia}
+      \field{title}{A {Critical} {Conduction} {Mode} {Bridgeless} {Flyback} {Converter}}
+      \field{year}{2011}
+      \field{pages}{487\bibrangedash 492}
+      \range{pages}{6}
+    \endentry
+    \entry{Shafer2004}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=767782fe163afc413928556d8744cf3f}{%
+           family={Shafer},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{767782fe163afc413928556d8744cf3f}
+      \strng{fullhash}{767782fe163afc413928556d8744cf3f}
+      \strng{bibnamehash}{767782fe163afc413928556d8744cf3f}
+      \strng{authorbibnamehash}{767782fe163afc413928556d8744cf3f}
+      \strng{authornamehash}{767782fe163afc413928556d8744cf3f}
+      \strng{authorfullhash}{767782fe163afc413928556d8744cf3f}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Texas Instrument Power Supply Design Seminar}
+      \field{title}{Interleaving {Contributes} {Unique} {Benefits} to {Forward} {Converters} and {Flyback} {Converters}}
+      \field{volume}{4}
+      \field{year}{2004}
+      \field{pages}{1\bibrangedash 32}
+      \range{pages}{32}
+    \endentry
+    \entry{Ishihara2015}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=7c58096e2131f352865916d45dc6ad14}{%
+           family={Ishihara},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4f7f8e1b2b43365f7afa0e918839c190}{%
+           family={Kimura},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ea59ef8e9111f4458cbea09c6e345481}{%
+           family={Martinez},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=61d7d130a9eebdd02b61065743dd4ca1}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b1843dbaae3d7ba26e36ae42c671325}
+      \strng{fullhash}{f311f97599905d75bbd8c941d1c4affd}
+      \strng{bibnamehash}{f311f97599905d75bbd8c941d1c4affd}
+      \strng{authorbibnamehash}{f311f97599905d75bbd8c941d1c4affd}
+      \strng{authornamehash}{9b1843dbaae3d7ba26e36ae42c671325}
+      \strng{authorfullhash}{f311f97599905d75bbd8c941d1c4affd}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 IEEE Energy Conversion Congress and Exposition (ECCE)}
+      \field{title}{Analysis and {Design} of {Passive} {Components} for {Interleaved} {Flyback} {Converter} {with} {Integrated} {Transformer}}
+      \field{year}{2015}
+      \field{pages}{5902\bibrangedash 5909}
+      \range{pages}{8}
+    \endentry
+    \entry{Kimura2016}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4f7f8e1b2b43365f7afa0e918839c190}{%
+           family={Kimura},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5cd7aa4ad41533bf2587f8659309562a}{%
+           family={Itoh},
+           familyi={I\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ea59ef8e9111f4458cbea09c6e345481}{%
+           family={Martinez},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=61d7d130a9eebdd02b61065743dd4ca1}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=91fbd6136eef8862be9d5a43265d0681}{%
+           family={Imaoka},
+           familyi={I\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8beb298ade21826df5c5c0c26e43483b}
+      \strng{fullhash}{c2d092c14640e1328a877c9677e52ebd}
+      \strng{bibnamehash}{c2d092c14640e1328a877c9677e52ebd}
+      \strng{authorbibnamehash}{c2d092c14640e1328a877c9677e52ebd}
+      \strng{authornamehash}{8beb298ade21826df5c5c0c26e43483b}
+      \strng{authorfullhash}{c2d092c14640e1328a877c9677e52ebd}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industry Applications}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{Downsizing {Effects} of {Integrated} {Magnetic} {Components} in {High} {Power} {Density} {DC–DC} {Converters} for {EV} and {HEV} {Applications}}
+      \field{volume}{52}
+      \field{year}{2016}
+      \field{pages}{3294\bibrangedash 3305}
+      \range{pages}{12}
+    \endentry
+    \entry{Taheri2011}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=8f5849499ec6a01c0fae68b22b60dd7c}{%
+           family={Taheri},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cdbf9d43c1b32adbf764b4701499e857}{%
+           family={Milimonfared},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8e4a3591ba3abac5d6ab6e2506ec6e36}{%
+           family={Bayat},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3c9aeb9b4aec270bd6d33f17bb938009}{%
+           family={Riazmontazer},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1f37afed8342fef602f70b5f66dda044}{%
+           family={Noroozi},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e215bb9d3bf41a798c7c73deb6fd1c7}
+      \strng{fullhash}{da7493a7ae9866baf6f091e4b1cbc48f}
+      \strng{bibnamehash}{da7493a7ae9866baf6f091e4b1cbc48f}
+      \strng{authorbibnamehash}{da7493a7ae9866baf6f091e4b1cbc48f}
+      \strng{authornamehash}{9e215bb9d3bf41a798c7c73deb6fd1c7}
+      \strng{authorfullhash}{da7493a7ae9866baf6f091e4b1cbc48f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 2nd Power Electronics, Drive Systems and Technologies Conference}
+      \field{title}{Analysis and {Design} of a {New} {Soft} {Switching} {Interleaved} {Converter} {Using} an {Integrated} {Transformer}}
+      \field{year}{2011}
+      \field{pages}{98\bibrangedash 103}
+      \range{pages}{6}
+    \endentry
+    \entry{Qian2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=35d20dd8d48f66689ae4eb5c05c14d45}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=de07485e637672cc051bc44f4c413392}{%
+           family={Lehman},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{57164ac5bbc9c1da091f4bd987eb0640}
+      \strng{fullhash}{57164ac5bbc9c1da091f4bd987eb0640}
+      \strng{bibnamehash}{57164ac5bbc9c1da091f4bd987eb0640}
+      \strng{authorbibnamehash}{57164ac5bbc9c1da091f4bd987eb0640}
+      \strng{authornamehash}{57164ac5bbc9c1da091f4bd987eb0640}
+      \strng{authorfullhash}{57164ac5bbc9c1da091f4bd987eb0640}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{number}{1}
+      \field{title}{Coupled {Input-Series} and {Output-Parallel} {Dual} {Interleaved} {Flyback} {Converter} for {High} {Input} {Voltage} {Application}}
+      \field{volume}{23}
+      \field{year}{2008}
+      \field{pages}{88\bibrangedash 95}
+      \range{pages}{8}
+    \endentry
+    \entry{Yan2002}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=4f899688e5c80dfb927544f337baafbd}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0aeb779adacfaab0439f8af98c580b36}{%
+           family={Qu},
+           familyi={Q\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=de07485e637672cc051bc44f4c413392}{%
+           family={Lehman},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3baf25bd9ef820232be4100bb0b6819d}
+      \strng{fullhash}{3baf25bd9ef820232be4100bb0b6819d}
+      \strng{bibnamehash}{3baf25bd9ef820232be4100bb0b6819d}
+      \strng{authorbibnamehash}{3baf25bd9ef820232be4100bb0b6819d}
+      \strng{authornamehash}{3baf25bd9ef820232be4100bb0b6819d}
+      \strng{authorfullhash}{3baf25bd9ef820232be4100bb0b6819d}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Seventeenth Annual IEEE Applied Power Electronics Conference and Exposition}
+      \field{title}{Integrated {Magnetic} {Full} {Wave} {Converter} with {Flexible} {Output} {Inductor}}
+      \field{year}{2002}
+      \field{pages}{824\bibrangedash 830}
+      \range{pages}{7}
+    \endentry
+    \entry{Wong2001}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=4ea786edbadbb29dd2c78aad04f5fd58}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={L.\bibnamedelimi P.},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=fe77c05b3a535e2b2a6a49e9b466647d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Y.\bibnamedelimi S.},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=81beaeb6534717ad05188b3d5ca91d12}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi K.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f86765e2b68590647bc234a91ec71a0}
+      \strng{fullhash}{5f86765e2b68590647bc234a91ec71a0}
+      \strng{bibnamehash}{5f86765e2b68590647bc234a91ec71a0}
+      \strng{authorbibnamehash}{5f86765e2b68590647bc234a91ec71a0}
+      \strng{authornamehash}{5f86765e2b68590647bc234a91ec71a0}
+      \strng{authorfullhash}{5f86765e2b68590647bc234a91ec71a0}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Sixteenth IEEE Applied Power Electronics Conference and Exposition}
+      \field{title}{A {New} {Approach} to the {Analysis} and {Design} of {Integrated} {Magnetics}}
+      \field{year}{2001}
+      \field{pages}{1196\bibrangedash 1202}
+      \range{pages}{7}
+    \endentry
+    \entry{Choi2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4c83e612ca6179605e076be7f68a2296}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a47ebaf5c524dc9e990eb42d804c7650}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=91fbd6136eef8862be9d5a43265d0681}{%
+           family={Imaoka},
+           familyi={I\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=61d7d130a9eebdd02b61065743dd4ca1}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{43d2454de669bf43b04eda73b45a8708}
+      \strng{fullhash}{3b18aad01addad2a0060e1afa4d2e961}
+      \strng{bibnamehash}{3b18aad01addad2a0060e1afa4d2e961}
+      \strng{authorbibnamehash}{3b18aad01addad2a0060e1afa4d2e961}
+      \strng{authornamehash}{43d2454de669bf43b04eda73b45a8708}
+      \strng{authorfullhash}{3b18aad01addad2a0060e1afa4d2e961}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+      \field{month}{8}
+      \field{number}{6}
+      \field{title}{Voltage-Controlled {Variable} {Inductor} for {Fixed-Frequency} {Critical} {Conduction} {Mode} {Operation}}
+      \field{volume}{70}
+      \field{year}{2022}
+      \field{pages}{5707\bibrangedash 5716}
+      \range{pages}{10}
+    \endentry
+    \entry{Kimura2015}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=4f7f8e1b2b43365f7afa0e918839c190}{%
+           family={Kimura},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=57dec85f589ab8b12c56efe64793b0f1}{%
+           family={Aoto},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7c58096e2131f352865916d45dc6ad14}{%
+           family={Ishihara},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=91fbd6136eef8862be9d5a43265d0681}{%
+           family={Imaoka},
+           familyi={I\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=61d7d130a9eebdd02b61065743dd4ca1}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b2a4825f07d3a1b41802de6feaf964e}
+      \strng{fullhash}{1b0981b626ead06b370a4b3268ad6f21}
+      \strng{bibnamehash}{1b0981b626ead06b370a4b3268ad6f21}
+      \strng{authorbibnamehash}{1b0981b626ead06b370a4b3268ad6f21}
+      \strng{authornamehash}{9b2a4825f07d3a1b41802de6feaf964e}
+      \strng{authorfullhash}{1b0981b626ead06b370a4b3268ad6f21}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 IEEE Energy Conversion Congress and Exposition (ECCE)}
+      \field{title}{Interleaved {Active} {Clump} {Forward} {Converter} with {Novel} {Integrated} {Magnetic} {Components}}
+      \field{year}{2015}
+      \field{pages}{6029\bibrangedash 6036}
+      \range{pages}{8}
+    \endentry
+    \entry{Colonel2004}{book}{}
+      \name{author}{2}{}{%
+        {{hash=37774641fc28640238eb225b0548a44d}{%
+           family={Colonel},
+           familyi={C\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=82ca5a01f3129f3289d70704adb108f4}{%
+           family={McLyman},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL, USA}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{fullhash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{bibnamehash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{authorbibnamehash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{authornamehash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{authorfullhash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Transformer and {Inductor} {Design} {Handbook}}
+      \field{year}{2004}
+    \endentry
+    \entry{McMurray1980}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c7bb0fa8f3704399d828a8854c1f8f54}{%
+           family={McMurray},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7bb0fa8f3704399d828a8854c1f8f54}
+      \strng{fullhash}{c7bb0fa8f3704399d828a8854c1f8f54}
+      \strng{bibnamehash}{c7bb0fa8f3704399d828a8854c1f8f54}
+      \strng{authorbibnamehash}{c7bb0fa8f3704399d828a8854c1f8f54}
+      \strng{authornamehash}{c7bb0fa8f3704399d828a8854c1f8f54}
+      \strng{authorfullhash}{c7bb0fa8f3704399d828a8854c1f8f54}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industry Applications}
+      \field{number}{4}
+      \field{title}{Selection of {Snubbers} and {Clamps} to {Optimize} the {Design} of {Transistor} {Switching} {Converters}}
+      \field{volume}{IA-16}
+      \field{year}{1980}
+      \field{pages}{513\bibrangedash 523}
+      \range{pages}{11}
+    \endentry
+    \entry{Koo2006}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=f780c57a27fda28c0d1a89e1be221916}{%
+           family={Koo},
+           familyi={K\bibinitperiod},
+           given={G.\bibnamedelimi B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Jose, CA, USA}%
+      }
+      \list{organization}{1}{%
+        {Fairchild Semiconductor}%
+      }
+      \strng{namehash}{f780c57a27fda28c0d1a89e1be221916}
+      \strng{fullhash}{f780c57a27fda28c0d1a89e1be221916}
+      \strng{bibnamehash}{f780c57a27fda28c0d1a89e1be221916}
+      \strng{authorbibnamehash}{f780c57a27fda28c0d1a89e1be221916}
+      \strng{authornamehash}{f780c57a27fda28c0d1a89e1be221916}
+      \strng{authorfullhash}{f780c57a27fda28c0d1a89e1be221916}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Application Note AN-4147 Rev.1.1.0}
+      \field{title}{Design {Guidelines} for {RCD} {Snubber} of {Flyback} {Converters}}
+      \field{year}{2006}
+    \endentry
+    \entry{Infineon2021}{manual}{}
+      \list{organization}{1}{%
+        {Infineon Technologies}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{note}{Application Note}
+      \field{title}{Design {Guide} {Lighting} {ICs} {ACDC} {LED} {Driver} {ICs} {ICL88xx}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.infineon.com/dgdl/Infineon-Design_guide_Lighting_ICs_ACDC_LED_Driver_ICs_ICL88xx-ApplicationNotes-v01_01-EN.pdf?fileId=5546d4627a5b3d08017a65d6b742038d
+      \endverb
+      \verb{url}
+      \verb https://www.infineon.com/dgdl/Infineon-Design_guide_Lighting_ICs_ACDC_LED_Driver_ICs_ICL88xx-ApplicationNotes-v01_01-EN.pdf?fileId=5546d4627a5b3d08017a65d6b742038d
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

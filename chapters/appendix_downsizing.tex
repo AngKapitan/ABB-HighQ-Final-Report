@@ -1,0 +1,48 @@
+This appendix details the theoretical derivation for the transformer downsizing effect presented in the Introduction, Figure \ref{fig:downsizing}. The volume comparison between a standard 50 Hz line-frequency transformer (LFT) and a high-frequency solid-state transformer (HFT) is evaluated using the fundamental area-product method.
+
+\subsection*{The Area-Product Volume Equation}
+The overall physical volume of a transformer ($Vol_{\mathrm{trans}}$) is proportional to the area product of its core and can be analytically estimated using the following relationship:
+$$ Vol_{\mathrm{trans}} = K_{\mathrm{vol}} \left( \frac{P_{\mathrm{t}}}{K_{\mathrm{u}} \cdot B_{\mathrm{m}} \cdot f \cdot K_{\mathrm{f}} \cdot J_{\mathrm{m}}} \right)^{3/4} $$
+where the variables are defined as follows:
+\begin{itemize}
+    \item $K_{\mathrm{vol}}$: Core volume coefficient
+    \item $P_{\mathrm{t}}$: Total input and output power
+    \item $K_{\mathrm{f}}$: Waveform coefficient
+    \item $K_{\mathrm{u}}$: Window utilization factor
+    \item $f$: Frequency of excitation
+    \item $J_{\mathrm{m}}$: Current density through windings
+\end{itemize}
+
+\subsection*{Design Parameters and Assumptions}
+To isolate the volume reduction strictly associated with the transition to high-frequency operation, the power rating, core material limits, and winding density are held constant between both transformer designs. The assigned parameters are summarized below:
+\begin{itemize}
+    \item \textbf{Operating Power ($P_{\mathrm{t}}$):} 100 kVA
+    \item \textbf{Peak Flux Density ($B_{\mathrm{m}}$):} 1.0 T
+    \item \textbf{Current Density ($J_{\mathrm{m}}$):} 5 A/mm$^2$
+    \item \textbf{Window Utilization ($K_{\mathrm{u}}$):} 0.5
+\end{itemize}
+
+The critical variables that shift between the two operating states are the excitation frequency and the waveform coefficient. The conventional LFT operates at a grid frequency of $f_{\mathrm{LFT}} = 50 \text{ Hz}$ with a standard AC sine wave excitation ($K_{\mathrm{f,LFT}} = 4.44$). Conversely, the HFT is driven by power electronic converters utilizing square wave excitation ($K_{\mathrm{f,HFT}} = 4.0$) across a high-frequency sweep of $f_{\mathrm{HFT}} = 1 \text{ kHz}$ to $10 \text{ kHz}$. 
+
+\subsection*{Volume Ratio Derivation}
+To determine the downsizing effect, a ratio is established between the high-frequency volume ($Vol_{\mathrm{HFT}}$) and the line-frequency volume ($Vol_{\mathrm{LFT}}$). By evaluating both cases using the area-product method, the identical parameters ($K_{\mathrm{vol}}$, $P_{\mathrm{t}}$, $K_{\mathrm{u}}$, $B_{\mathrm{m}}$, and $J_{\mathrm{m}}$) cancel out, yielding:
+$$ \begin{aligned}
+    \frac{Vol_{\mathrm{HFT}}}{Vol_{\mathrm{LFT}}} &= \frac{ K_{\mathrm{vol}} \left( \frac{P_{\mathrm{t}}}{K_{\mathrm{u}} \cdot B_{\mathrm{m}} \cdot f_{\mathrm{HFT}} \cdot K_{\mathrm{f,HFT}} \cdot J_{\mathrm{m}}} \right)^{3/4} }{ K_{\mathrm{vol}} \left( \frac{P_{\mathrm{t}}}{K_{\mathrm{u}} \cdot B_{\mathrm{m}} \cdot f_{\mathrm{LFT}} \cdot K_{\mathrm{f,LFT}} \cdot J_{\mathrm{m}}} \right)^{3/4} } \\
+    &= \left( \frac{f_{\mathrm{LFT}} \cdot K_{\mathrm{f,LFT}}}{f_{\mathrm{HFT}} \cdot K_{\mathrm{f,HFT}}} \right)^{3/4}
+\end{aligned} $$
+
+Substituting the specific grid and waveform values established in B.2:
+$$ \begin{aligned}
+    \frac{Vol_{\mathrm{HFT}}}{Vol_{\mathrm{LFT}}} = \left( \frac{55.5}{f_{\mathrm{HFT}}} \right)^{3/4}
+\end{aligned} $$
+
+\subsection*{Computational Results}
+This simplified governing equation allows for the direct plotting of the theoretical volume reduction curve as a function of the solid-state transformer's switching frequency. Evaluating the function at the extremes of the targeted operating range explicitly confirms the curve:
+
+At $1 \text{ kHz}$ ($1,000 \text{ Hz}$):
+$$ \frac{Vol_{\mathrm{HFT}}}{Vol_{\mathrm{LFT}}} = \left( \frac{55.5}{1000} \right)^{3/4} = (0.0555)^{0.75} \approx 0.1146 $$
+This demonstrates that transitioning to a $1 \text{ kHz}$ square-wave operation theoretically reduces the physical transformer volume to roughly $11.5\%$ of its $50 \text{ Hz}$ equivalent. 
+
+At $10 \text{ kHz}$ ($10,000 \text{ Hz}$):
+$$ \frac{Vol_{\mathrm{HFT}}}{Vol_{\mathrm{LFT}}} = \left( \frac{55.5}{10000} \right)^{3/4} = (0.00555)^{0.75} \approx 0.0204 $$
+At the upper limit of $10 \text{ kHz}$, the volume footprint collapses to just $2.0\%$ of the traditional line-frequency design, thoroughly validating the core motivation for integrating high-frequency magnetic components in modern power conversion stages.

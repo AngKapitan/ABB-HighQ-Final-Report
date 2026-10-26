@@ -1,0 +1,80 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Set the global font family to Arial
+plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['font.sans-serif'] = ['Arial']
+
+# Set the global font family to Arial
+plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['font.sans-serif'] = ['Arial']
+
+# Force math mode text to also use Arial
+plt.rcParams['mathtext.fontset'] = 'custom'
+plt.rcParams['mathtext.rm'] = 'Arial'
+plt.rcParams['mathtext.it'] = 'Arial:italic'
+plt.rcParams['mathtext.bf'] = 'Arial:bold'
+
+# Start from 0.01 to avoid divide-by-zero warnings
+f_n_values = np.linspace(0.01, 2.0, 1000) 
+
+# ---------------------------------------------------------
+# Plot 1: Effect of Q (Fixed k)
+# ---------------------------------------------------------
+fig1, ax1 = plt.subplots(figsize=(7, 6))
+
+fixed_k = 3.0
+Q_sweep = [0.1, 0.2, 0.4, 0.6, 0.8, 1.0] # Wider sweep to show damping
+
+for Q in Q_sweep:
+    term1 = Q * f_n_values * (1 / fixed_k + 2)
+    term2 = (Q / f_n_values) * (2 / fixed_k + 2)
+    term3 = Q / (fixed_k * f_n_values**3)
+    
+    # Corrected FHA formula with square root
+    gain_curve = 1 / np.sqrt((term1 - term2 + term3)**2 + (1 / fixed_k - 1 / (fixed_k * f_n_values**2) + 1)**2)
+    
+    ax1.plot(f_n_values, gain_curve, linewidth=1.5, label=f'Q = {Q:.1f}')
+
+ax1.set_title(f'Effect of Quality Factor ($k$ = {fixed_k:.1f})', fontsize=20)
+ax1.set_xlabel('Normalized Frequency ($f_n$)', fontsize=16)
+ax1.set_ylabel('Voltage Gain', fontsize=16)
+ax1.set_ylim(0, 3.5)
+ax1.set_xlim(0.2, 2.0)
+ax1.grid(True, linestyle=':', alpha=0.7)
+ax1.legend(loc='upper right')
+
+# Adjust layout and save first PDF
+fig1.tight_layout()
+fig1.savefig('effect_of_Q.pdf', format='pdf', bbox_inches='tight')
+
+
+# ---------------------------------------------------------
+# Plot 2: Effect of k (Fixed Q)
+# ---------------------------------------------------------
+fig2, ax2 = plt.subplots(figsize=(7, 6))
+
+fixed_Q = 0.5
+k_sweep = [2, 3, 4, 5, 7, 10] # Sweep to show peak shift
+
+for k in k_sweep:
+    term1 = fixed_Q * f_n_values * (1 / k + 2)
+    term2 = (fixed_Q / f_n_values) * (2 / k + 2)
+    term3 = fixed_Q / (k * f_n_values**3)
+    
+    # Corrected FHA formula with square root
+    gain_curve = 1 / np.sqrt((term1 - term2 + term3)**2 + (1 / k - 1 / (k * f_n_values**2) + 1)**2)
+    
+    ax2.plot(f_n_values, gain_curve, linewidth=1.5, label=f'k = {k:.1f}')
+
+ax2.set_title(f'Effect of Inductance Ratio ($Q$ = {fixed_Q:.2f})', fontsize=20)
+ax2.set_xlabel('Normalized Frequency ($f_n$)', fontsize=16)
+ax2.set_ylabel('Voltage Gain', fontsize=16)
+ax2.set_ylim(0, 3.5)
+ax2.set_xlim(0.2, 2.0)
+ax2.grid(True, linestyle=':', alpha=0.7)
+ax2.legend(loc='upper right')
+
+# Adjust layout and save second PDF
+fig2.tight_layout()
+fig2.savefig('effect_of_k.pdf', format='pdf', bbox_inches='tight')

@@ -1,0 +1,209 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+import math
+from scipy import integrate
+import warnings
+
+warnings.filterwarnings("ignore", category=RuntimeWarning)
+
+# ==============================================================================
+# 1. CONSTANTS
+# ==============================================================================
+v_in = 100.0
+f_sw = 28.5e3
+p_o = 1e3
+T_s = 1.0 / f_sw
+mu_0 = 4 * math.pi * 1e-7
+mu_r = 3400.0 
+sigma = 5.96e7
+V_pri_pk = 100.0
+L_m = 200e-6
+I_p_rms = 10.0
+B_m_assumed = 0.50
+K_u = 0.98
+alpha = 1.7066
+beta = 2.535
+k = 0.0620
+
+d_left_right = 1e-3
+d_upper_down = 1e-3
+FIXED_LG = 0.1e-3
+FIXED_W_CENT = 10e-3 
+J_TARGET = 10/(0.5*4) * 1e6 
+FIXED_D_INTER = 0.1e-3
+
+# ==============================================================================
+# 2. PHYSICS MODULES
+# ==============================================================================
+def _calculate_R_prime_basic(w, l, h, mu_0):
+    if w <= 0 or l <= 0 or h <= 0: return float('inf')
+    try:
+        log_term = (math.pi * h) / (4 * l)
+        if log_term <= 0: return float('inf')
+        val = mu_0 * (w / (2 * l) + (2 / math.pi) * (1 + math.log(log_term)))
+        return 1 / val if val != 0 else float('inf')
+    except: return float('inf')
+
+def _calculate_3d_gap_reluctance(leg_width, core_thickness, gap_length, h_dimension, mu_0):
+    if leg_width <= 0 or core_thickness <= 0: return float('inf')
+    w1, t1 = leg_width, core_thickness
+    w2, t2 = core_thickness, leg_width
+    s1 = _calculate_R_prime_basic(w1, gap_length/2, h_dimension, mu_0) / (gap_length / (mu_0 * t1))
+    s2 = _calculate_R_prime_basic(w2, gap_length/2, h_dimension, mu_0) / (gap_length / (mu_0 * t2))
+    return s1 * s2 * (gap_length / (mu_0 * leg_width * core_thickness))
+
+def calculate_geometry(Np, w_cent, l_g, w_wire, h_wire, d_inter):
+    w_out = w_cent / 2
+    l_window = h_wire + 2 * d_upper_down
+    w_window = w_wire * 2 * Np + (2 * Np - 1) * d_inter + 2 * d_left_right
+    l_1 = (l_window + w_out - l_g) / 2
+    if l_1 <= 0: return None
+    target_reluctance = Np**2 / L_m
+    low, high = 0.001, 0.5
+    for _ in range(50):
+        mid = (low + high) / 2
+        A_calc = mid * w_cent
+        h_dim = l_1 - w_cent / 4
+        if A_calc <= 0 or h_dim <= 0: high = mid; continue
+        MPL = 2*l_window + 2*w_window + w_cent + math.pi/4*w_out - 2*l_g
+        R_core = MPL / (mu_0 * mu_r * A_calc)
+        Rg_tot = R_core + _calculate_3d_gap_reluctance(w_cent, mid, l_g, h_dim, mu_0) + 0.5*_calculate_3d_gap_reluctance(w_out, mid, l_g, h_dim, mu_0)
+        if Rg_tot > target_reluctance: low = mid
+        else: high = mid
+    l_cent_final = (low + high) / 2
+    A_calc_final = l_cent_final * w_cent
+    B_act = (V_pri_pk * T_s) / (4 * Np * A_calc_final)
+    overall_width = 2 * w_window + w_cent + 2 * w_out
+    overall_height = l_window + 2 * w_out
+    overall_length = l_cent_final + 2 * w_window
+    V_box = overall_length * overall_width * overall_height
+    footprint_area = overall_height * overall_width
+    non_ferrite_area = (w_window * l_window) * 2 + (l_g * (2 * w_out + w_cent))
+    V_core = l_cent_final * (footprint_area - non_ferrite_area)
+    return {"A_calc": A_calc_final, "l_cent": l_cent_final, "B_act": B_act, "V_core": V_core, "V_box": V_box}
+
+def calculate_core_loss(Np, A_calc, V_core):
+    delta_B = (V_pri_pk * (T_s/2)) / (Np * A_calc)
+    dBdt = delta_B / (T_s/2 - 400e-9)
+    def kern(th): return (abs(math.cos(th))**alpha) * (2**(beta - alpha))
+    Kint, _ = integrate.quad(kern, 0, 2*math.pi)
+    ki = k / (2 * (math.pi**(alpha - 1)) * Kint)
+    def loss_int(t): return ki * (dBdt**alpha) * (delta_B**(beta-alpha))
+    E_cycle, _ = integrate.quad(loss_int, 0, T_s)
+    return (E_cycle/T_s) * V_core
+
+def calculate_rdc_flatwise(l_cent, w_cent, w_wire, d_left_right, d_inter, Np, sigma, h_wire):
+    w_1 = w_cent + 2 * (w_wire / 2 + d_left_right)
+    l_1 = l_cent + 2 * (w_wire / 2 + d_left_right)
+    lt_1 = 2 * (w_1 + l_1)
+    common_difference = 8 * (w_wire + d_inter)
+    total_sum = Np * (2 * lt_1 + (2*Np - 1) * common_difference) 
+    return (1 / sigma) * total_sum / (h_wire * w_wire)
+
+def calculate_rac_dowell(f_s, w_wire, r_dc, sigma, mu_0):
+    if f_s == 0: return r_dc, float('inf'), 0, 1.0
+    delta = math.sqrt(1 / (sigma * math.pi * f_s * mu_0))
+    eta = w_wire / delta
+    try:
+        F_ac = (eta / 2) * ((math.sinh(eta) + math.sin(eta))/(math.cosh(eta) - math.cos(eta)) + (math.sinh(eta) - math.sin(eta))/(math.cosh(eta) + math.cos(eta)))
+    except: F_ac = eta
+    return F_ac * r_dc, delta, eta, F_ac
+
+# ==============================================================================
+# 3. SWEEP CONFIGURATION
+# ==============================================================================
+NP_RANGE = np.arange(4, 18, 1)
+W_WIRE_RANGE = np.arange(0.2e-3, 1.05e-3, 0.02e-3) 
+
+X, Y = np.meshgrid(NP_RANGE, W_WIRE_RANGE * 1000) 
+Z_vol = np.full(X.shape, np.nan)
+Z_loss = np.full(X.shape, np.nan)
+
+print(f"--- Starting Sweep (Fixed d_inter={FIXED_D_INTER*1000}mm) ---")
+
+for i, w_wire_curr in enumerate(W_WIRE_RANGE):
+    h_wire_curr = I_p_rms / (J_TARGET * w_wire_curr)
+    
+    for j, Np in enumerate(NP_RANGE):
+        geo = calculate_geometry(Np, FIXED_W_CENT, FIXED_LG, w_wire_curr, h_wire_curr, FIXED_D_INTER)
+        if geo is None or geo['A_calc'] <= 0: continue
+        
+        rdc = calculate_rdc_flatwise(geo['l_cent'], FIXED_W_CENT, w_wire_curr, d_left_right, FIXED_D_INTER, Np, sigma, h_wire_curr)
+        rac, _, _, _ = calculate_rac_dowell(f_sw, w_wire_curr, rdc, sigma, mu_0)
+        p_cu = rac * (I_p_rms**2)
+        p_core = calculate_core_loss(Np, geo['A_calc'], geo['V_core'])
+        
+        total_loss = p_cu + p_core
+        vol = geo['V_box'] * 1e6
+        
+        if total_loss < 50: 
+            Z_vol[i, j] = vol
+            Z_loss[i, j] = total_loss
+
+# ==============================================================================
+# 4. PLOTTING (Computer Modern Font)
+# ==============================================================================
+print("--- Generating Final Plot (Computer Modern) ---")
+
+# --- Configure Fonts & Sizes ---
+plt.rcParams.update({
+    "font.family": "serif",
+    "mathtext.fontset": "cm", 
+    "axes.labelsize": 14,        # Increased Label Size
+    "xtick.labelsize": 12,       # Increased Tick Size
+    "ytick.labelsize": 12,
+    "legend.fontsize": 12        # Legend Size
+})
+
+fig = plt.figure(figsize=(12, 10))
+ax = fig.add_subplot(111, projection='3d')
+
+# Normalize colors - Changed colormap to 'turbo' for high contrast
+norm = plt.Normalize(vmin=np.nanmin(Z_loss), vmax=np.nanmax(Z_loss))
+colors = cm.turbo(norm(Z_loss)) # turbo or jet is better for distinction
+colors[np.isnan(Z_loss)] = 0.0
+
+# Plot Surface
+surf = ax.plot_surface(X, Y, Z_vol, facecolors=colors, 
+                       rstride=1, cstride=1, 
+                       linewidth=0.1, edgecolor='k', 
+                       shade=False, alpha=0.9)
+
+# --- HIGHLIGHT THE CHOSEN DESIGN ---
+CHOSEN_N = 8
+CHOSEN_W = 0.3e-3
+h_wire_mark = I_p_rms / (J_TARGET * CHOSEN_W)
+geo_mark = calculate_geometry(CHOSEN_N, FIXED_W_CENT, FIXED_LG, CHOSEN_W, h_wire_mark, FIXED_D_INTER)
+
+if geo_mark:
+    vol_mark = geo_mark['V_box'] * 1e6
+    ax.scatter(CHOSEN_N, CHOSEN_W * 1000, vol_mark + 2, 
+              color='red', s=200, marker='*', zorder=100, 
+              edgecolor='white', linewidth=1.5, label=r'$\mathrm{Chosen\ Design}$')
+    ax.legend(loc='upper right')
+
+# Colorbar
+m = cm.ScalarMappable(cmap=cm.turbo, norm=norm)
+m.set_array([])
+cbar = plt.colorbar(m, ax=ax, shrink=0.6, aspect=15, pad=0.1)
+cbar.set_label(r'$\mathrm{Total\ Losses\ (W)}$', rotation=270, labelpad=25, fontsize=14)
+
+# Labels - Updated to requested variable names
+ax.set_xlabel(r'Number of Turns $N_{\mathrm{p}} \ (-)$', labelpad=12)
+ax.set_ylabel(r'Wire Width $w_{\mathrm{wire}} \ (\mathrm{mm})$', labelpad=12)
+ax.set_zlabel(r'$\mathrm{Transformer\ Volume\ (cm^3)}$', labelpad=12)
+
+# View Angle - Rotated 45 degrees clockwise relative to -60
+# -60 - 45 = -105. 
+ax.view_init(elev=30, azim=-45) 
+
+plt.tight_layout()
+
+# Save as PDF
+filename = 'trans_design_rotated.pdf'
+plt.savefig(filename, format='pdf', bbox_inches='tight')
+print(f"Figure saved as '{filename}'")
+
+plt.show()

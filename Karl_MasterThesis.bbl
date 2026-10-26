@@ -1,0 +1,2070 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{eia_ieo2019}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=9e2e11e29f64a338e6cdb702b7241e70}{%
+           family={{U.S. Energy Information Administration}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {U.S. Department of Energy}%
+      }
+      \strng{namehash}{9e2e11e29f64a338e6cdb702b7241e70}
+      \strng{fullhash}{9e2e11e29f64a338e6cdb702b7241e70}
+      \strng{fullhashraw}{9e2e11e29f64a338e6cdb702b7241e70}
+      \strng{bibnamehash}{9e2e11e29f64a338e6cdb702b7241e70}
+      \strng{authorbibnamehash}{9e2e11e29f64a338e6cdb702b7241e70}
+      \strng{authornamehash}{9e2e11e29f64a338e6cdb702b7241e70}
+      \strng{authorfullhash}{9e2e11e29f64a338e6cdb702b7241e70}
+      \strng{authorfullhashraw}{9e2e11e29f64a338e6cdb702b7241e70}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{International Energy Outlook 2019}}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.eia.gov/outlooks/ieo/
+      \endverb
+      \verb{url}
+      \verb https://www.eia.gov/outlooks/ieo/
+      \endverb
+    \endentry
+    \entry{sstexample}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=c3c872d4685823ecd28741e18bb3e9d6}{%
+           family={Thoma},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e15b866cc17386c6eca0d30acfd68e2d}{%
+           family={Volzer},
+           familyi={V\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=13324e1738b790d3797e7e6d73bc60a6}{%
+           family={Kranzer},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3c24a48c1429b4c4e97afaa14097eeeb}{%
+           family={Derix},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=901c15eb72c0f0023725e036c83f3c42}{%
+           family={Geiss},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=38827e4f00bdc3dcc2bdf94483982302}{%
+           family={Hensel},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3beae77c180b1beafc035163c09cd33b}
+      \strng{fullhash}{8c68bf535cb0881ee1cfb23befce144c}
+      \strng{fullhashraw}{8c68bf535cb0881ee1cfb23befce144c}
+      \strng{bibnamehash}{8c68bf535cb0881ee1cfb23befce144c}
+      \strng{authorbibnamehash}{8c68bf535cb0881ee1cfb23befce144c}
+      \strng{authornamehash}{3beae77c180b1beafc035163c09cd33b}
+      \strng{authorfullhash}{8c68bf535cb0881ee1cfb23befce144c}
+      \strng{authorfullhashraw}{8c68bf535cb0881ee1cfb23befce144c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 23rd European Conference on Power Electronics and Applications (EPE'21 ECCE Europe)}
+      \field{title}{{Highly Compact 250 kVA Inverter Stack with 3.3 kV SiC MOSFETs}}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.23919/EPE21ECCEEurope50061.2021.9570608
+      \endverb
+    \endentry
+    \entry{lftexample}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=337e8722fbd6af3a739e72e820d90ca5}{%
+           family={{Weisho Electric}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{337e8722fbd6af3a739e72e820d90ca5}
+      \strng{fullhash}{337e8722fbd6af3a739e72e820d90ca5}
+      \strng{fullhashraw}{337e8722fbd6af3a739e72e820d90ca5}
+      \strng{bibnamehash}{337e8722fbd6af3a739e72e820d90ca5}
+      \strng{authorbibnamehash}{337e8722fbd6af3a739e72e820d90ca5}
+      \strng{authornamehash}{337e8722fbd6af3a739e72e820d90ca5}
+      \strng{authorfullhash}{337e8722fbd6af3a739e72e820d90ca5}
+      \strng{authorfullhashraw}{337e8722fbd6af3a739e72e820d90ca5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{How Do High Voltage Transformers Work?}}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.weishoelec.com/Blog/how-do-high-voltage-transformers-work/
+      \endverb
+      \verb{url}
+      \verb https://www.weishoelec.com/Blog/how-do-high-voltage-transformers-work/
+      \endverb
+    \endentry
+    \entry{technologies13020074}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=cafa276e1b8d30bc2a6d85e59744405d}{%
+           family={Predescu},
+           familyi={P\bibinitperiod},
+           given={Dragoş-Mihail},
+           giveni={D\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=19e46838a7a84187f065ae89ed9e0c71}{%
+           family={Roşu},
+           familyi={R\bibinitperiod},
+           given={Ştefan-George},
+           giveni={Ş\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d4d491dfcca45f8a0b6c5f9bc93e3cf}
+      \strng{fullhash}{4d4d491dfcca45f8a0b6c5f9bc93e3cf}
+      \strng{fullhashraw}{4d4d491dfcca45f8a0b6c5f9bc93e3cf}
+      \strng{bibnamehash}{4d4d491dfcca45f8a0b6c5f9bc93e3cf}
+      \strng{authorbibnamehash}{4d4d491dfcca45f8a0b6c5f9bc93e3cf}
+      \strng{authornamehash}{4d4d491dfcca45f8a0b6c5f9bc93e3cf}
+      \strng{authorfullhash}{4d4d491dfcca45f8a0b6c5f9bc93e3cf}
+      \strng{authorfullhashraw}{4d4d491dfcca45f8a0b6c5f9bc93e3cf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2227-7080}
+      \field{journaltitle}{Technologies}
+      \field{number}{2}
+      \field{title}{{Solid State Transformers: A Review---Part I: Stages of Conversion and Topologies}}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{pages}{74}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/technologies13020074
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2227-7080/13/2/74
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2227-7080/13/2/74
+      \endverb
+    \endentry
+    \entry{10667423}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=863b8c6c47a1648af309e3c68fa98271}{%
+           family={Liserre},
+           familyi={L\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=597c9dc84f9a79c5cd6cd5cdece1370c}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Levy},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ebe2059e6ca682710425dfcfbfa65c79}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Zhicheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=14dfe10999ada2e467cd553411ec75d4}{%
+           family={D’Amato},
+           familyi={D\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=92887c4feaad50f2cb233011f88bc339}{%
+           family={Queiroz},
+           familyi={Q\bibinitperiod},
+           given={Samuel\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5b603558b93f2bedb0a542235b4dffea}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{05c7899e7a8c533a447acfca40fe8ef9}
+      \strng{fullhash}{b341ba8d740e299683df279ad6694abb}
+      \strng{fullhashraw}{b341ba8d740e299683df279ad6694abb}
+      \strng{bibnamehash}{b341ba8d740e299683df279ad6694abb}
+      \strng{authorbibnamehash}{b341ba8d740e299683df279ad6694abb}
+      \strng{authornamehash}{05c7899e7a8c533a447acfca40fe8ef9}
+      \strng{authorfullhash}{b341ba8d740e299683df279ad6694abb}
+      \strng{authorfullhashraw}{b341ba8d740e299683df279ad6694abb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 IEEE 15th International Symposium on Power Electronics for Distributed Generation Systems (PEDG)}
+      \field{title}{{Last Developments and New Technologies in Solid-State Transformer}}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/PEDG61800.2024.10667423
+      \endverb
+    \endentry
+    \entry{6342269}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=1a07c67de8c5e2d4368ccc59592af4dc}{%
+           family={She},
+           familyi={S\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=10d752372f3676e6676976263a6d1e6b}{%
+           family={Burgos},
+           familyi={B\bibinitperiod},
+           given={Rolando},
+           giveni={R\bibinitperiod}}}%
+        {{hash=68785dcab0770a59c06943644696b2c6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Gangyao},
+           giveni={G\bibinitperiod}}}%
+        {{hash=60af9bc009f709103e587bb92cee1cda}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=09a39827f2dedcd73b65820f467d8e6d}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Alex\bibnamedelima Q.},
+           giveni={A\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{3154854eac93df0e34c585044a316569}
+      \strng{fullhash}{c93daeabda3949e6420e27326041e7d6}
+      \strng{fullhashraw}{c93daeabda3949e6420e27326041e7d6}
+      \strng{bibnamehash}{c93daeabda3949e6420e27326041e7d6}
+      \strng{authorbibnamehash}{c93daeabda3949e6420e27326041e7d6}
+      \strng{authornamehash}{3154854eac93df0e34c585044a316569}
+      \strng{authorfullhash}{c93daeabda3949e6420e27326041e7d6}
+      \strng{authorfullhashraw}{c93daeabda3949e6420e27326041e7d6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 IEEE Energy Conversion Congress and Exposition (ECCE)}
+      \field{title}{{Review of Solid State Transformer in the Distribution System: From Components to Field Application}}
+      \field{year}{2012}
+      \field{pages}{4077\bibrangedash 4084}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ECCE.2012.6342269
+      \endverb
+    \endentry
+    \entry{8962031}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=7152d536317f4669272616d081c63d43}{%
+           family={Hannan},
+           familyi={H\bibinitperiod},
+           given={Mahammad\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=88c72c408ee272341a910630cf282190}{%
+           family={Ker},
+           familyi={K\bibinitperiod},
+           given={Pin\bibnamedelima Jern},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d4feb2247fc3e4d481ab26da25d3e655}{%
+           family={Lipu},
+           familyi={L\bibinitperiod},
+           given={Molla\bibnamedelimb S.\bibnamedelimi Hossain},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=58d2eef0f48b0fc8c3ea6799e7350e9d}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Zhen\bibnamedelima Hang},
+           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=643b5bd767d4c404b8625ae311f80cc7}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi Safwan\bibnamedelima Abd.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a89b4d10d79767b615d06bec0d544e6c}{%
+           family={Muttaqi},
+           familyi={M\bibinitperiod},
+           given={Kashem\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ef3a4a9ff466b76df8611ae446cf3ea3}{%
+           family={Blaabjerg},
+           familyi={B\bibinitperiod},
+           given={Frede},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa156acab345a033d3edbaa3b8d5027c}
+      \strng{fullhash}{493c5c6de7765c887c06610dd0811541}
+      \strng{fullhashraw}{493c5c6de7765c887c06610dd0811541}
+      \strng{bibnamehash}{aa156acab345a033d3edbaa3b8d5027c}
+      \strng{authorbibnamehash}{aa156acab345a033d3edbaa3b8d5027c}
+      \strng{authornamehash}{aa156acab345a033d3edbaa3b8d5027c}
+      \strng{authorfullhash}{493c5c6de7765c887c06610dd0811541}
+      \strng{authorfullhashraw}{493c5c6de7765c887c06610dd0811541}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{{State of the Art of Solid-State Transformers: Advanced Topologies, Implementation Issues, Recent Progress and Improvements}}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{19113\bibrangedash 19132}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2020.2967345
+      \endverb
+    \endentry
+    \entry{czyz2021}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=1d43af8ceca7f0996697e526aba577e6}{%
+           family={Czyz},
+           familyi={C\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {ETH Zurich}%
+      }
+      \list{location}{1}{%
+        {Zurich, Switzerland}%
+      }
+      \strng{namehash}{1d43af8ceca7f0996697e526aba577e6}
+      \strng{fullhash}{1d43af8ceca7f0996697e526aba577e6}
+      \strng{fullhashraw}{1d43af8ceca7f0996697e526aba577e6}
+      \strng{bibnamehash}{1d43af8ceca7f0996697e526aba577e6}
+      \strng{authorbibnamehash}{1d43af8ceca7f0996697e526aba577e6}
+      \strng{authornamehash}{1d43af8ceca7f0996697e526aba577e6}
+      \strng{authorfullhash}{1d43af8ceca7f0996697e526aba577e6}
+      \strng{authorfullhashraw}{1d43af8ceca7f0996697e526aba577e6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Novel Medium-Voltage Solid-State Transformer Technologies}}
+      \field{type}{phdthesis}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.ams-publications.ee.ethz.ch/uploads/tx_ethpublications/Thesis_Czyz_2021_web_compressed.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ams-publications.ee.ethz.ch/uploads/tx_ethpublications/Thesis_Czyz_2021_web_compressed.pdf
+      \endverb
+    \endentry
+    \entry{downsizing}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=91fbd6136eef8862be9d5a43265d0681}{%
+           family={Imaoka},
+           familyi={I\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=50748c9b59162fa240505b07cf5e813c}{%
+           family={Yu-Hsin},
+           familyi={Y\bibinithyphendelim H\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=af4afab0aac498fdf2040a583bcb4275}{%
+           family={Shigematsu},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4dfd5d8370989f3e9ab96a0bef53d007}{%
+           family={Aoki},
+           familyi={A\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d85f4c67cfc77ed716264c42283679e6}{%
+           family={Noah},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=61d7d130a9eebdd02b61065743dd4ca1}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a75171fda114cafa3e7ee3b38ab9af20}
+      \strng{fullhash}{0f7a555307dce3514f6475f233c23b77}
+      \strng{fullhashraw}{0f7a555307dce3514f6475f233c23b77}
+      \strng{bibnamehash}{0f7a555307dce3514f6475f233c23b77}
+      \strng{authorbibnamehash}{0f7a555307dce3514f6475f233c23b77}
+      \strng{authornamehash}{a75171fda114cafa3e7ee3b38ab9af20}
+      \strng{authorfullhash}{0f7a555307dce3514f6475f233c23b77}
+      \strng{authorfullhashraw}{0f7a555307dce3514f6475f233c23b77}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 IEEE 12th Energy Conversion Congress \& Exposition - Asia (ECCE-Asia)}
+      \field{title}{{Effects of High-Frequency Operation on Magnetic Components in Power Converters}}
+      \field{year}{2021}
+      \field{pages}{978\bibrangedash 984}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ECCE-Asia49820.2021.9479365
+      \endverb
+    \endentry
+    \entry{ref1}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=40e4fbc270abb1bcf96a15c6606548ac}{%
+           family={Agheb},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=99038a48b891c332f5d4a51ccaf4e880}{%
+           family={H{ø}idalen},
+           familyi={H\bibinitperiod},
+           given={H.\bibnamedelimi K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ae99ee080bf174413a8d064987a70e4}
+      \strng{fullhash}{3ae99ee080bf174413a8d064987a70e4}
+      \strng{fullhashraw}{3ae99ee080bf174413a8d064987a70e4}
+      \strng{bibnamehash}{3ae99ee080bf174413a8d064987a70e4}
+      \strng{authorbibnamehash}{3ae99ee080bf174413a8d064987a70e4}
+      \strng{authornamehash}{3ae99ee080bf174413a8d064987a70e4}
+      \strng{authorfullhash}{3ae99ee080bf174413a8d064987a70e4}
+      \strng{authorfullhashraw}{3ae99ee080bf174413a8d064987a70e4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 International Conference on Renewable Energy Research and Applications (ICRERA)}
+      \field{title}{{Medium Frequency High Power Transformers, State of Art and Challenges}}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICRERA.2012.6477318
+      \endverb
+    \endentry
+    \entry{6d7bedeb4d374ffaa54effc19030ffd3}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=17186664e557712d246432d775f9d3f2}{%
+           family={Dam},
+           familyi={D\bibinitperiod},
+           given={Bram},
+           giveni={B\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Electrical Engineering}%
+      }
+      \list{publisher}{1}{%
+        {Eindhoven University of Technology}%
+      }
+      \strng{namehash}{17186664e557712d246432d775f9d3f2}
+      \strng{fullhash}{17186664e557712d246432d775f9d3f2}
+      \strng{fullhashraw}{17186664e557712d246432d775f9d3f2}
+      \strng{bibnamehash}{17186664e557712d246432d775f9d3f2}
+      \strng{authorbibnamehash}{17186664e557712d246432d775f9d3f2}
+      \strng{authornamehash}{17186664e557712d246432d775f9d3f2}
+      \strng{authorfullhash}{17186664e557712d246432d775f9d3f2}
+      \strng{authorfullhashraw}{17186664e557712d246432d775f9d3f2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{{Medium Voltage Solid-State Transformer: An IEC60076-3 Based Design}}
+      \field{type}{phdthesis}
+      \field{year}{2023}
+    \endentry
+    \entry{https://doi.org/10.1049/hve2.12424}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=6fb5ddded05e3d5eaede7ed592b09def}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Xingyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ba559d8581e9d7db49cef70d84f781f4}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=32d62db63935e904b55b8aeb5c38315f}{%
+           family={Bu},
+           familyi={B\bibinitperiod},
+           given={Qinhao},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=1fde66399aca1a19124d81a38403ef46}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qiaogen},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a3a7be9b34030a1ed8a690de4ebda4e}
+      \strng{fullhash}{cfc83381e37c9961dd87be20417a710f}
+      \strng{fullhashraw}{cfc83381e37c9961dd87be20417a710f}
+      \strng{bibnamehash}{cfc83381e37c9961dd87be20417a710f}
+      \strng{authorbibnamehash}{cfc83381e37c9961dd87be20417a710f}
+      \strng{authornamehash}{8a3a7be9b34030a1ed8a690de4ebda4e}
+      \strng{authorfullhash}{cfc83381e37c9961dd87be20417a710f}
+      \strng{authorfullhashraw}{cfc83381e37c9961dd87be20417a710f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{High Voltage}
+      \field{number}{5}
+      \field{title}{{Thermal Runaway and Induced Electrical Failure of Epoxy Resin in High-Frequency Transformers: Insulation Design Reference}}
+      \field{volume}{9}
+      \field{year}{2024}
+      \field{pages}{989\bibrangedash 1000}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1049/hve2.12424
+      \endverb
+      \verb{urlraw}
+      \verb https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/hve2.12424
+      \endverb
+      \verb{url}
+      \verb https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/hve2.12424
+      \endverb
+    \endentry
+    \entry{leibl2017design}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=780d717671143f025b2b9d7592d3e288}{%
+           family={Leibl},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=47738641475c10561b4c9104596d3aae}{%
+           family={Ortiz},
+           familyi={O\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f27f8f73bc9f171f6248cbf2eb5ac473}{%
+           family={Kolar},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4d7ca45be31031014c472b16aaa6314}
+      \strng{fullhash}{7e227ae0497027fcb0a7632cdf8904af}
+      \strng{fullhashraw}{7e227ae0497027fcb0a7632cdf8904af}
+      \strng{bibnamehash}{7e227ae0497027fcb0a7632cdf8904af}
+      \strng{authorbibnamehash}{7e227ae0497027fcb0a7632cdf8904af}
+      \strng{authornamehash}{c4d7ca45be31031014c472b16aaa6314}
+      \strng{authorfullhash}{7e227ae0497027fcb0a7632cdf8904af}
+      \strng{authorfullhashraw}{7e227ae0497027fcb0a7632cdf8904af}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal of Emerging and Selected Topics in Power Electronics}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{{Design and Experimental Analysis of a Medium-Frequency Transformer for Solid-State Transformer Applications}}
+      \field{volume}{5}
+      \field{year}{2017}
+      \field{pages}{110\bibrangedash 123}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/JESTPE.2016.2623679
+      \endverb
+    \endentry
+    \entry{chen2018high}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=6dbedad2342e7fdc31f6a6905f472c6d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=32a1f6e431c6fba47a3d71670c6880f5}{%
+           family={Raju},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=84ac3a7de71b8a3c7a04bbb44eeded98}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=eba867181809a59d454cfb9ca46eb73f}{%
+           family={Agamy},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Portland, OR, USA}%
+      }
+      \strng{namehash}{4706d28ed0db53536c7517d6196f1179}
+      \strng{fullhash}{69881123021bde8f6df1ad8ed130a0d5}
+      \strng{fullhashraw}{69881123021bde8f6df1ad8ed130a0d5}
+      \strng{bibnamehash}{69881123021bde8f6df1ad8ed130a0d5}
+      \strng{authorbibnamehash}{69881123021bde8f6df1ad8ed130a0d5}
+      \strng{authornamehash}{4706d28ed0db53536c7517d6196f1179}
+      \strng{authorfullhash}{69881123021bde8f6df1ad8ed130a0d5}
+      \strng{authorfullhashraw}{69881123021bde8f6df1ad8ed130a0d5}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE Energy Conversion Congress and Exposition (ECCE)}
+      \field{title}{{High Frequency Transformer Insulation in Medium Voltage SiC Enabled Air-Cooled Solid-State Transformers}}
+      \field{year}{2018}
+      \field{pages}{2436\bibrangedash 2443}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ECCE.2018.8557849
+      \endverb
+    \endentry
+    \entry{mogorovic2019100kw}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8f064db23687aa485bb2efa70357e2f3}{%
+           family={Mogorovic},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=583646e681e965b4b0997e75c9fa58f6}{%
+           family={Dujic},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d993369bc69441d6d985ec19a5b4b78}
+      \strng{fullhash}{3d993369bc69441d6d985ec19a5b4b78}
+      \strng{fullhashraw}{3d993369bc69441d6d985ec19a5b4b78}
+      \strng{bibnamehash}{3d993369bc69441d6d985ec19a5b4b78}
+      \strng{authorbibnamehash}{3d993369bc69441d6d985ec19a5b4b78}
+      \strng{authornamehash}{3d993369bc69441d6d985ec19a5b4b78}
+      \strng{authorfullhash}{3d993369bc69441d6d985ec19a5b4b78}
+      \strng{authorfullhashraw}{3d993369bc69441d6d985ec19a5b4b78}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{{100 kW, 10 kHz Medium-Frequency Transformer Design Optimization and Experimental Verification}}
+      \field{volume}{34}
+      \field{year}{2019}
+      \field{pages}{1696\bibrangedash 1708}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TPEL.2018.2835564
+      \endverb
+    \endentry
+    \entry{anurag2022gen3}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4e5a4ce158f8c12c4f2dcbdba8e313b1}{%
+           family={Anurag},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a6d034e788892c6f4ee179f5a4e6bf36}{%
+           family={Acharya},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4b3ae7ef5b3b1ce040c4b42d5557b6e2}{%
+           family={Bhattacharya},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=521c1dac8e48c79ce401f66fcb30afab}{%
+           family={Weatherford},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=08f601b5fca6b145ab4e2a6061a1bdab}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc74b11c51d6ad10866403e60ad6e3b7}
+      \strng{fullhash}{81ca8ab20f392e0ab8f9fa779fc0d556}
+      \strng{fullhashraw}{81ca8ab20f392e0ab8f9fa779fc0d556}
+      \strng{bibnamehash}{81ca8ab20f392e0ab8f9fa779fc0d556}
+      \strng{authorbibnamehash}{81ca8ab20f392e0ab8f9fa779fc0d556}
+      \strng{authornamehash}{dc74b11c51d6ad10866403e60ad6e3b7}
+      \strng{authorfullhash}{81ca8ab20f392e0ab8f9fa779fc0d556}
+      \strng{authorfullhashraw}{81ca8ab20f392e0ab8f9fa779fc0d556}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal of Emerging and Selected Topics in Power Electronics}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{{A Gen-3 10-kV SiC MOSFET-Based Medium-Voltage Three-Phase Dual Active Bridge Converter Enabling a Mobile Utility Support Equipment Solid State Transformer}}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{1519\bibrangedash 1536}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1109/JESTPE.2021.3069810
+      \endverb
+    \endentry
+    \entry{cremasco2024166kw}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=36fd2f874d400cea8e6c325f768a287d}{%
+           family={Cremasco},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5df31a80f4efee4c16bd9938dfca40bd}{%
+           family={Rothmund},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=98688b25cad70e6753f34f8681ceba42}{%
+           family={Milone},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c1b4cedc9a465e373868c6f253dbb0bc}{%
+           family={Mokkapaty},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3dda5403b751fe83c595bfc6d81de0f6}{%
+           family={Lomonova},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fa94fa7a2c08f5322fdde6cbca796ae}
+      \strng{fullhash}{cf67474991666f2eaaa0b3a0892a4a8c}
+      \strng{fullhashraw}{cf67474991666f2eaaa0b3a0892a4a8c}
+      \strng{bibnamehash}{cf67474991666f2eaaa0b3a0892a4a8c}
+      \strng{authorbibnamehash}{cf67474991666f2eaaa0b3a0892a4a8c}
+      \strng{authornamehash}{7fa94fa7a2c08f5322fdde6cbca796ae}
+      \strng{authorfullhash}{cf67474991666f2eaaa0b3a0892a4a8c}
+      \strng{authorfullhashraw}{cf67474991666f2eaaa0b3a0892a4a8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Open Journal of Power Electronics}
+      \field{title}{{166 kW Liquid-Insulated Medium-Frequency Transformer with Hybrid Foil-Litz Windings}}
+      \field{volume}{5}
+      \field{year}{2024}
+      \field{pages}{201\bibrangedash 213}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/OJPEL.2024.3354807
+      \endverb
+    \endentry
+    \entry{yi2022design}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=5e35dd537df5b48aab18122b6ca61e98}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d82651b44f5cd880fe532375ed2a2671}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=240f15f7d0b589c89d5552453f46785d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a050216dc8f0dd894662a0cb29dfc36c}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1ef50857e114f08907fb07cb579b5e7e}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{076b2b004ee783f46e9b81bc6991a61b}
+      \strng{fullhash}{8928e4042874ff06548f6d0fcd298089}
+      \strng{fullhashraw}{8928e4042874ff06548f6d0fcd298089}
+      \strng{bibnamehash}{8928e4042874ff06548f6d0fcd298089}
+      \strng{authorbibnamehash}{8928e4042874ff06548f6d0fcd298089}
+      \strng{authornamehash}{076b2b004ee783f46e9b81bc6991a61b}
+      \strng{authorfullhash}{8928e4042874ff06548f6d0fcd298089}
+      \strng{authorfullhashraw}{8928e4042874ff06548f6d0fcd298089}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal of Emerging and Selected Topics in Power Electronics}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{{Design and Optimization of the Insulation of Medium-Voltage Medium-Frequency Transformers for Solid-State Transformers}}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{3561\bibrangedash 3570}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/JESTPE.2021.3094674
+      \endverb
+    \endentry
+    \entry{gradinger2017novel}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=8c2b86aa105aa0d8af1e2e637fd1aacd}{%
+           family={Gradinger},
+           familyi={G\bibinitperiod},
+           given={T.\bibnamedelimi B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=2d6f01d037b74319259ef1b381bb82d4}{%
+           family={Drofenik},
+           familyi={D\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=cacde55769deaea36b0cc012f389e919}{%
+           family={Alvarez},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Warsaw, Poland}%
+      }
+      \strng{namehash}{1618a527223bd0c44811f8ad991d28f0}
+      \strng{fullhash}{ac856ac22ab02f987cbab4a9e7b28cc6}
+      \strng{fullhashraw}{ac856ac22ab02f987cbab4a9e7b28cc6}
+      \strng{bibnamehash}{ac856ac22ab02f987cbab4a9e7b28cc6}
+      \strng{authorbibnamehash}{ac856ac22ab02f987cbab4a9e7b28cc6}
+      \strng{authornamehash}{1618a527223bd0c44811f8ad991d28f0}
+      \strng{authorfullhash}{ac856ac22ab02f987cbab4a9e7b28cc6}
+      \strng{authorfullhashraw}{ac856ac22ab02f987cbab4a9e7b28cc6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 19th European Conference on Power Electronics and Applications (EPE'17 ECCE Europe)}
+      \field{title}{{Novel Insulation Concept for an MV Dry-Cast Medium-Frequency Transformer}}
+      \field{year}{2017}
+      \field{pages}{P.1\bibrangedash P.10}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.23919/EPE17ECCEEurope.2017.8099006
+      \endverb
+    \endentry
+    \entry{ref8}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=d884429739dbbf05c81641e87893b8f0}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=05ed76149e148fca98e6c03495426736}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=786af77513e12c05e5d39eb6e8c541e1}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=76ea44714785be027d3b3255b26eeeff}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=22f5b5b8224e93535d5aa5cf2b3fb767}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi Q.},
+           giveni={A\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6a6ce5ead4da24433e6f2c8d19ff90f}
+      \strng{fullhash}{c5677c51cd12ac491e9d629b9f145545}
+      \strng{fullhashraw}{c5677c51cd12ac491e9d629b9f145545}
+      \strng{bibnamehash}{c5677c51cd12ac491e9d629b9f145545}
+      \strng{authorbibnamehash}{c5677c51cd12ac491e9d629b9f145545}
+      \strng{authornamehash}{b6a6ce5ead4da24433e6f2c8d19ff90f}
+      \strng{authorfullhash}{c5677c51cd12ac491e9d629b9f145545}
+      \strng{authorfullhashraw}{c5677c51cd12ac491e9d629b9f145545}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{number}{9}
+      \field{title}{{Design and Optimization of a 200-kW Medium-Frequency Transformer for Medium-Voltage SiC PV Inverters}}
+      \field{volume}{36}
+      \field{year}{2021}
+      \field{pages}{10548\bibrangedash 10560}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TPEL.2021.3059879
+      \endverb
+    \endentry
+    \entry{ref9}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=d884429739dbbf05c81641e87893b8f0}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6a6ce5ead4da24433e6f2c8d19ff90f}
+      \strng{fullhash}{b6a6ce5ead4da24433e6f2c8d19ff90f}
+      \strng{fullhashraw}{b6a6ce5ead4da24433e6f2c8d19ff90f}
+      \strng{bibnamehash}{b6a6ce5ead4da24433e6f2c8d19ff90f}
+      \strng{authorbibnamehash}{b6a6ce5ead4da24433e6f2c8d19ff90f}
+      \strng{authornamehash}{b6a6ce5ead4da24433e6f2c8d19ff90f}
+      \strng{authorfullhash}{b6a6ce5ead4da24433e6f2c8d19ff90f}
+      \strng{authorfullhashraw}{b6a6ce5ead4da24433e6f2c8d19ff90f}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{number}{1}
+      \field{title}{{A Novel High Insulation 100 kW Medium Frequency Transformer}}
+      \field{volume}{38}
+      \field{year}{2023}
+      \field{pages}{112\bibrangedash 117}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TPEL.2022.3205646
+      \endverb
+    \endentry
+    \entry{ref10}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=6314bcd4ca3b8ec6d7b189b9603cc26d}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=77af472aa8774702d3bb8ef5e3a8fd15}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={D.\bibnamedelimi T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=210b9c36e8871482784e7dd594bc6f1f}{%
+           family={Hanson},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{bad4b3b034dd6d86634eed9644c9d3c0}
+      \strng{fullhash}{e5ecacdcba76d952e1710ab1aac36ed0}
+      \strng{fullhashraw}{e5ecacdcba76d952e1710ab1aac36ed0}
+      \strng{bibnamehash}{e5ecacdcba76d952e1710ab1aac36ed0}
+      \strng{authorbibnamehash}{e5ecacdcba76d952e1710ab1aac36ed0}
+      \strng{authornamehash}{bad4b3b034dd6d86634eed9644c9d3c0}
+      \strng{authorfullhash}{e5ecacdcba76d952e1710ab1aac36ed0}
+      \strng{authorfullhashraw}{e5ecacdcba76d952e1710ab1aac36ed0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2025 IEEE Applied Power Electronics Conference and Exposition (APEC)}
+      \field{title}{{Heat Extraction from Ferrite Cores Using Metallic Laminations}}
+      \field{year}{2025}
+      \field{pages}{231\bibrangedash 237}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/APEC48143.2025.10977461
+      \endverb
+    \endentry
+    \entry{ref11}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=b6f5f0eb30cbbf3846e24112b25e0ec8}{%
+           family={Platte},
+           familyi={P\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{88596f2bc59119d5697b1379100fa96f}
+      \strng{fullhash}{88596f2bc59119d5697b1379100fa96f}
+      \strng{fullhashraw}{88596f2bc59119d5697b1379100fa96f}
+      \strng{bibnamehash}{88596f2bc59119d5697b1379100fa96f}
+      \strng{authorbibnamehash}{88596f2bc59119d5697b1379100fa96f}
+      \strng{authornamehash}{88596f2bc59119d5697b1379100fa96f}
+      \strng{authorfullhash}{88596f2bc59119d5697b1379100fa96f}
+      \strng{authorfullhashraw}{88596f2bc59119d5697b1379100fa96f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 14th International Electric Drives Production Conference (EDPC)}
+      \field{title}{{Thermal Conductivity Analysis of Electrical Insulation Systems in Hairpin Technology with Taped Profiled Litz Wire and Flat Enamelled Wire}}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/EDPC63771.2024.10932857
+      \endverb
+    \endentry
+    \entry{ref12}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e388d8586ae4b17f179a8466a1cf2743}{%
+           family={Jaritz},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cca0d9b76f93383d40dfd368fe3dcc07}{%
+           family={Hillers},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=235870d4a3cf2c4c26794bb0bcd16d33}{%
+           family={Biela},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{323dd54b9eea4e01bf5dd4ff06974446}
+      \strng{fullhash}{bedad5e41fa26aa53dabfdafed6f4985}
+      \strng{fullhashraw}{bedad5e41fa26aa53dabfdafed6f4985}
+      \strng{bibnamehash}{bedad5e41fa26aa53dabfdafed6f4985}
+      \strng{authorbibnamehash}{bedad5e41fa26aa53dabfdafed6f4985}
+      \strng{authornamehash}{323dd54b9eea4e01bf5dd4ff06974446}
+      \strng{authorfullhash}{bedad5e41fa26aa53dabfdafed6f4985}
+      \strng{authorfullhashraw}{bedad5e41fa26aa53dabfdafed6f4985}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{number}{1}
+      \field{title}{{General Analytical Model for the Thermal Resistance of Windings Made of Solid or Litz Wire}}
+      \field{volume}{34}
+      \field{year}{2019}
+      \field{pages}{668\bibrangedash 684}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/TPEL.2018.2817126
+      \endverb
+    \endentry
+    \entry{ref22}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=5f58048012eefdac56a58a92dd02a211}{%
+           family={Matsuta},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=09631b351752cb403c08282cb1973e92}{%
+           family={Nagai},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=471f3240a748728d3e9e1050c9197305}{%
+           family={Nakahama},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3840becdc9c219505ae4518cfcc60a67}{%
+           family={Maeda},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6f54ce1eeef632b4cc290f0165ab533d}{%
+           family={Ishitobi},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d297c9b3aacf2a49c724957055a4250a}
+      \strng{fullhash}{d4f7bf98df85e02516217bceaa7783ad}
+      \strng{fullhashraw}{d4f7bf98df85e02516217bceaa7783ad}
+      \strng{bibnamehash}{d4f7bf98df85e02516217bceaa7783ad}
+      \strng{authorbibnamehash}{d4f7bf98df85e02516217bceaa7783ad}
+      \strng{authornamehash}{d297c9b3aacf2a49c724957055a4250a}
+      \strng{authorfullhash}{d4f7bf98df85e02516217bceaa7783ad}
+      \strng{authorfullhashraw}{d4f7bf98df85e02516217bceaa7783ad}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEJ Transactions on Industry Applications}
+      \field{number}{4}
+      \field{title}{{Structure of Bundled Windings and Copper Loss for Core-Less Power Inductor}}
+      \field{volume}{139}
+      \field{year}{2019}
+      \field{pages}{409\bibrangedash 415}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1541/ieejias.139.409
+      \endverb
+    \endentry
+    \entry{ref23}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=7c7263459703f274d284a06b462a667b}{%
+           family={Hashimoto},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=31a5552002147b253f425d7c137d6c59}{%
+           family={Zaitsu},
+           familyi={Z\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f9b4f59886669c64ca646ed90847cb19}{%
+           family={Hayashi},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e3aa54756a0de69b02a2385ab62efadb}{%
+           family={Mitani},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3379ccfa80ed4d8f91c6d9c029168a53}{%
+           family={Inoue},
+           familyi={I\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{642cb606295bd2cf3eb4ae354d88a7b8}
+      \strng{fullhash}{307112302ae3fb9b5d93b303d27ae9b4}
+      \strng{fullhashraw}{307112302ae3fb9b5d93b303d27ae9b4}
+      \strng{bibnamehash}{307112302ae3fb9b5d93b303d27ae9b4}
+      \strng{authorbibnamehash}{307112302ae3fb9b5d93b303d27ae9b4}
+      \strng{authornamehash}{642cb606295bd2cf3eb4ae354d88a7b8}
+      \strng{authorfullhash}{307112302ae3fb9b5d93b303d27ae9b4}
+      \strng{authorfullhashraw}{307112302ae3fb9b5d93b303d27ae9b4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kobelco Technology Review}
+      \field{title}{{Low Loss Reactor Comprising Dust Core and Copperbelt Coil}}
+      \field{volume}{34}
+      \field{year}{2016}
+      \field{pages}{38\bibrangedash 43}
+      \range{pages}{6}
+    \endentry
+    \entry{zhang2019analog}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=14fd6c4762d5113df9a2a4c45d09c456}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=342bb75c1e295012c13ea5266798f733}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=20ea5cbf0d6be4e5f140fae974c1c343}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9113b5835843309fa06504ea7ee28c1d}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8afab9bdc9b292debbeb136dfd97036c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6288959531289d576f726aff48d2e20e}
+      \strng{fullhash}{f57ace56a1baad1d4ee861ca3cabef36}
+      \strng{fullhashraw}{f57ace56a1baad1d4ee861ca3cabef36}
+      \strng{bibnamehash}{f57ace56a1baad1d4ee861ca3cabef36}
+      \strng{authorbibnamehash}{f57ace56a1baad1d4ee861ca3cabef36}
+      \strng{authornamehash}{6288959531289d576f726aff48d2e20e}
+      \strng{authorfullhash}{f57ace56a1baad1d4ee861ca3cabef36}
+      \strng{authorfullhashraw}{f57ace56a1baad1d4ee861ca3cabef36}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE Energy Conversion Congress and Exposition (ECCE)}
+      \field{title}{{An Analog-Based, Duty Cycle Modulation Method to Remove the DC Bias in the Transformer for a Dual Active Bridge Converter}}
+      \field{year}{2019}
+      \field{pages}{5199\bibrangedash 5203}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ECCE.2019.8913233
+      \endverb
+    \endentry
+    \entry{krismer2012efficiency}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b46bcc74ec5b7fd39c6da24e396fcc73}{%
+           family={Krismer},
+           familyi={K\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f27f8f73bc9f171f6248cbf2eb5ac473}{%
+           family={Kolar},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{4817362b9b4d9ad3058cd856e40b0187}
+      \strng{fullhash}{4817362b9b4d9ad3058cd856e40b0187}
+      \strng{fullhashraw}{4817362b9b4d9ad3058cd856e40b0187}
+      \strng{bibnamehash}{4817362b9b4d9ad3058cd856e40b0187}
+      \strng{authorbibnamehash}{4817362b9b4d9ad3058cd856e40b0187}
+      \strng{authornamehash}{4817362b9b4d9ad3058cd856e40b0187}
+      \strng{authorfullhash}{4817362b9b4d9ad3058cd856e40b0187}
+      \strng{authorfullhashraw}{4817362b9b4d9ad3058cd856e40b0187}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{{Efficiency-Optimized High-Current Dual Active Bridge Converter for Automotive Applications}}
+      \field{volume}{59}
+      \field{year}{2012}
+      \field{pages}{2745\bibrangedash 2760}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TIE.2011.2112312
+      \endverb
+    \endentry
+    \entry{ref19}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=7df2444319b62f5fb5c8d50ee420e803}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={J.\bibnamedelimi H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5e404d5a0d155eb3b298beda3efce3e1}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={H.\bibnamedelimi S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f923626e71f2cbf1625daea1094d5def}{%
+           family={Ryu},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ae04a192298816bc30b0d5c3f5520a50}{%
+           family={Baek},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e00ec6d4b2d552ff37cf48e70187f13}
+      \strng{fullhash}{b3a379d5c4cb8d94c94318a20f72ab5a}
+      \strng{fullhashraw}{b3a379d5c4cb8d94c94318a20f72ab5a}
+      \strng{bibnamehash}{b3a379d5c4cb8d94c94318a20f72ab5a}
+      \strng{authorbibnamehash}{b3a379d5c4cb8d94c94318a20f72ab5a}
+      \strng{authornamehash}{4e00ec6d4b2d552ff37cf48e70187f13}
+      \strng{authorfullhash}{b3a379d5c4cb8d94c94318a20f72ab5a}
+      \strng{authorfullhashraw}{b3a379d5c4cb8d94c94318a20f72ab5a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{number}{4}
+      \field{title}{{Design Methodology of Bidirectional CLLC Resonant Converter for High-Frequency Isolation of DC Distribution Systems}}
+      \field{volume}{28}
+      \field{year}{2013}
+      \field{pages}{1741\bibrangedash 1755}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TPEL.2012.2213346
+      \endverb
+    \endentry
+    \entry{mukherjee2021comparison}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f7fcea0edefb6323bfa73b9d2f534beb}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=40faa1bc69980517511d12eb5ab3c8bb}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=17d777989c89ecf12f1ff3b51386964b}{%
+           family={Chakraborty},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{75ba6b0e70a3afdbf8f584ab61d2b19d}
+      \strng{fullhash}{61fd4e7f542bf9520e508131a27d4b0c}
+      \strng{fullhashraw}{61fd4e7f542bf9520e508131a27d4b0c}
+      \strng{bibnamehash}{61fd4e7f542bf9520e508131a27d4b0c}
+      \strng{authorbibnamehash}{61fd4e7f542bf9520e508131a27d4b0c}
+      \strng{authornamehash}{75ba6b0e70a3afdbf8f584ab61d2b19d}
+      \strng{authorfullhash}{61fd4e7f542bf9520e508131a27d4b0c}
+      \strng{authorfullhashraw}{61fd4e7f542bf9520e508131a27d4b0c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{{Comparison of DAB and LLC DC--DC Converters in High-Step-Down Fixed-Conversion-Ratio (DCX) Applications}}
+      \field{volume}{36}
+      \field{year}{2021}
+      \field{pages}{4383\bibrangedash 4398}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TPEL.2020.3019796
+      \endverb
+    \endentry
+    \entry{oh2024comparison}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=225fe22dcb25715e5444b531ccffd1f4}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={H.\bibnamedelimi S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7a7728cd248342b30909f7d26c34c0b0}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={S.\bibnamedelimi Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=a38fe2282e0ae708270c02346a36d08f}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d1abf5b09459704e7ce058f832d9e0b6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{12a2e273e7642de372587a70216cf077}
+      \strng{fullhash}{faf35f966f856cb185f54a13be726a72}
+      \strng{fullhashraw}{faf35f966f856cb185f54a13be726a72}
+      \strng{bibnamehash}{faf35f966f856cb185f54a13be726a72}
+      \strng{authorbibnamehash}{faf35f966f856cb185f54a13be726a72}
+      \strng{authornamehash}{12a2e273e7642de372587a70216cf077}
+      \strng{authorfullhash}{faf35f966f856cb185f54a13be726a72}
+      \strng{authorfullhashraw}{faf35f966f856cb185f54a13be726a72}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energies}
+      \field{number}{21}
+      \field{title}{{Comparison of Bi-Directional Topologies for On-Board Charger: A 10.9 kW High-Efficiency High Power Density of DC--DC Stage}}
+      \field{volume}{17}
+      \field{year}{2024}
+      \field{pages}{5496}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en17215496
+      \endverb
+    \endentry
+    \entry{costa2015modular}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=cf6abf140439f60d3242425ee00b9751}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Federal University of Santa Catarina}%
+      }
+      \list{location}{1}{%
+        {Florianópolis, Brazil}%
+      }
+      \strng{namehash}{cf6abf140439f60d3242425ee00b9751}
+      \strng{fullhash}{cf6abf140439f60d3242425ee00b9751}
+      \strng{fullhashraw}{cf6abf140439f60d3242425ee00b9751}
+      \strng{bibnamehash}{cf6abf140439f60d3242425ee00b9751}
+      \strng{authorbibnamehash}{cf6abf140439f60d3242425ee00b9751}
+      \strng{authornamehash}{cf6abf140439f60d3242425ee00b9751}
+      \strng{authorfullhash}{cf6abf140439f60d3242425ee00b9751}
+      \strng{authorfullhashraw}{cf6abf140439f60d3242425ee00b9751}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Modular Power Converters for Smart Transformer Architectures}}
+      \field{type}{phdthesis}
+      \field{year}{2015}
+    \endentry
+    \entry{anwar2018modeling}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=d0bb8dc5b7091a3645d5de3cfbb4d5c7}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1a595220c7a07794607aa604342eeb01}{%
+           family={Costinett},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c941ba4e9bfe146a8f623073ea201f1}
+      \strng{fullhash}{6c941ba4e9bfe146a8f623073ea201f1}
+      \strng{fullhashraw}{6c941ba4e9bfe146a8f623073ea201f1}
+      \strng{bibnamehash}{6c941ba4e9bfe146a8f623073ea201f1}
+      \strng{authorbibnamehash}{6c941ba4e9bfe146a8f623073ea201f1}
+      \strng{authornamehash}{6c941ba4e9bfe146a8f623073ea201f1}
+      \strng{authorfullhash}{6c941ba4e9bfe146a8f623073ea201f1}
+      \strng{authorfullhashraw}{6c941ba4e9bfe146a8f623073ea201f1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE Energy Conversion Congress and Exposition (ECCE)}
+      \field{title}{{Modeling Dual Active Bridge Converter Considering the Effect of Magnetizing Inductance for Electric Vehicle Application}}
+      \field{year}{2018}
+      \field{pages}{538\bibrangedash 545}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ECCE.2018.8557990
+      \endverb
+    \endentry
+    \entry{xie2019analysis}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=16fca6bd7353f9351bd6878733481389}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c618cb87609b5f0482810d50f4e850dc}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=659bd6beee22eceec8ae4730f258adab}{%
+           family={Jing},
+           familyi={J\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3702f1c146e64a6c91fc47b81ea59fc7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a715bd7973c33b1982714e93bdc76ee}
+      \strng{fullhash}{a31a40a760918b4ba920044972a16d19}
+      \strng{fullhashraw}{a31a40a760918b4ba920044972a16d19}
+      \strng{bibnamehash}{a31a40a760918b4ba920044972a16d19}
+      \strng{authorbibnamehash}{a31a40a760918b4ba920044972a16d19}
+      \strng{authornamehash}{1a715bd7973c33b1982714e93bdc76ee}
+      \strng{authorfullhash}{a31a40a760918b4ba920044972a16d19}
+      \strng{authorfullhashraw}{a31a40a760918b4ba920044972a16d19}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 14th IEEE Conference on Industrial Electronics and Applications (ICIEA)}
+      \field{title}{{Analysis and Comparison of Three Typical Resonant DC--DC Converters}}
+      \field{year}{2019}
+      \field{pages}{2327\bibrangedash 2332}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICIEA.2019.8833962
+      \endverb
+    \endentry
+    \entry{infineon_cllc}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=71295e7a511001f41e891ad73d10dea1}{%
+           family={{Infineon Technologies}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Infineon Technologies AG}%
+      }
+      \strng{namehash}{71295e7a511001f41e891ad73d10dea1}
+      \strng{fullhash}{71295e7a511001f41e891ad73d10dea1}
+      \strng{fullhashraw}{71295e7a511001f41e891ad73d10dea1}
+      \strng{bibnamehash}{71295e7a511001f41e891ad73d10dea1}
+      \strng{authorbibnamehash}{71295e7a511001f41e891ad73d10dea1}
+      \strng{authornamehash}{71295e7a511001f41e891ad73d10dea1}
+      \strng{authorfullhash}{71295e7a511001f41e891ad73d10dea1}
+      \strng{authorfullhashraw}{71295e7a511001f41e891ad73d10dea1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Operation and Modeling Analysis of a Bidirectional CLLC Converter}}
+      \field{type}{Application Note}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.infineon.com/assets/row/public/documents/60/42/infineon-operation-and-modeling-analysis-of-a-bidirectiona-cllc-converter-applicationnotes-en.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.infineon.com/assets/row/public/documents/60/42/infineon-operation-and-modeling-analysis-of-a-bidirectiona-cllc-converter-applicationnotes-en.pdf
+      \endverb
+    \endentry
+    \entry{ref21}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=d537fbcb416954c8cb9736099866074d}{%
+           family={Wouters},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=00f9013f740945745e55da6d89b8c0a5}{%
+           family={Pervaiz},
+           familyi={P\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e25b8fcd96a397b861fabb154b53c5fd}{%
+           family={Geboers},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e7a74b00bb4d110126917f99ba78dde3}{%
+           family={Zuo},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7f8ed28c03f8e86aceed8bf611a80d19}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={W.-R.},
+           giveni={W\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=ea59ef8e9111f4458cbea09c6e345481}{%
+           family={Martinez},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e525af91ddf1c1682dd849deda3add6}
+      \strng{fullhash}{410d972a00a65013566899794b87f79c}
+      \strng{fullhashraw}{410d972a00a65013566899794b87f79c}
+      \strng{bibnamehash}{410d972a00a65013566899794b87f79c}
+      \strng{authorbibnamehash}{410d972a00a65013566899794b87f79c}
+      \strng{authornamehash}{7e525af91ddf1c1682dd849deda3add6}
+      \strng{authorfullhash}{410d972a00a65013566899794b87f79c}
+      \strng{authorfullhashraw}{410d972a00a65013566899794b87f79c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 IEEE Applied Power Electronics Conference and Exposition (APEC)}
+      \field{title}{{Interleaved PCB Winding Planar Transformer for Electric Vehicle Charging CLLC Converters}}
+      \field{year}{2024}
+      \field{pages}{3216\bibrangedash 3223}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/APEC48139.2024.10509410
+      \endverb
+    \endentry
+    \entry{bahmani2016design}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8c1414a18a54db7ed47e108b372fe3d5}{%
+           family={Bahmani},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=122dcd7afcb077b9d4d690cb19e5531d}{%
+           family={Thiringer},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3548a5f7120f5f02b921c965823edd14}{%
+           family={Kharezy},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{066f193bc9366b347c2040999a2c49c7}
+      \strng{fullhash}{babdd8b15432122b65847fcf40c17314}
+      \strng{fullhashraw}{babdd8b15432122b65847fcf40c17314}
+      \strng{bibnamehash}{babdd8b15432122b65847fcf40c17314}
+      \strng{authorbibnamehash}{babdd8b15432122b65847fcf40c17314}
+      \strng{authornamehash}{066f193bc9366b347c2040999a2c49c7}
+      \strng{authorfullhash}{babdd8b15432122b65847fcf40c17314}
+      \strng{authorfullhashraw}{babdd8b15432122b65847fcf40c17314}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industry Applications}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{{Design Methodology and Optimization of a Medium-Frequency Transformer for High-Power DC--DC Applications}}
+      \field{volume}{52}
+      \field{year}{2016}
+      \field{pages}{4225\bibrangedash 4233}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TIA.2016.2582825
+      \endverb
+    \endentry
+    \entry{ref13}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c6d7665ed00bdcd6340bdfa9cfecfca5}{%
+           family={Bakri},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=adaad894f5b54bae84a62a18354ca98f}{%
+           family={Corgne},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dba8ba409d699eab4b7bef1187272508}{%
+           family={Margueron},
+           familyi={M\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{3da607493c5fb569d8f96d49af19e3e9}
+      \strng{fullhash}{01d0982353629a801adcd9b93068d1ec}
+      \strng{fullhashraw}{01d0982353629a801adcd9b93068d1ec}
+      \strng{bibnamehash}{01d0982353629a801adcd9b93068d1ec}
+      \strng{authorbibnamehash}{01d0982353629a801adcd9b93068d1ec}
+      \strng{authornamehash}{3da607493c5fb569d8f96d49af19e3e9}
+      \strng{authorfullhash}{01d0982353629a801adcd9b93068d1ec}
+      \strng{authorfullhashraw}{01d0982353629a801adcd9b93068d1ec}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{{Thermal Modeling of Planar Magnetics: Fundamentals, Review and Key Points}}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{41654\bibrangedash 41679}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2023.3269662
+      \endverb
+    \endentry
+    \entry{escribano2006new}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=5282bdf76d4dd06dc1d8d6972018133e}{%
+           family={Escribano},
+           familyi={E\bibinitperiod},
+           given={L.\bibnamedelimi M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9dc7804e9c65e1c2e69bffc1094a9e96}{%
+           family={Prieto},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4884633ab88d84afce9e89f4ad23688d}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=97f3cdb90325e7ce54c1ec88b8ddd3a8}{%
+           family={Cobos},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dallas, TX, USA}%
+      }
+      \strng{namehash}{60058d6a189e4b4ad1dd5ada68897dd7}
+      \strng{fullhash}{5f68a3322761738c162cbf2167e12639}
+      \strng{fullhashraw}{5f68a3322761738c162cbf2167e12639}
+      \strng{bibnamehash}{5f68a3322761738c162cbf2167e12639}
+      \strng{authorbibnamehash}{5f68a3322761738c162cbf2167e12639}
+      \strng{authornamehash}{60058d6a189e4b4ad1dd5ada68897dd7}
+      \strng{authorfullhash}{5f68a3322761738c162cbf2167e12639}
+      \strng{authorfullhashraw}{5f68a3322761738c162cbf2167e12639}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Twenty-First Annual IEEE Applied Power Electronics Conference and Exposition (APEC '06)}
+      \field{title}{{A New Approach to Obtain 1D Thermal Models for Magnetic Components Including the Effect of Spacing Between Conductors}}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.1109/APEC.2006.1620598
+      \endverb
+    \endentry
+    \entry{lewaiter2001thermal}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=59953b0d00d8557f17788086ab9d73b5}{%
+           family={Lewaiter},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ecdc4a2cdcaebe878e6f7891152eb9bf}{%
+           family={Ackermann},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Denpasar, Indonesia}%
+      }
+      \strng{namehash}{c74d30b0f44a9720a54622ed8acc29db}
+      \strng{fullhash}{c74d30b0f44a9720a54622ed8acc29db}
+      \strng{fullhashraw}{c74d30b0f44a9720a54622ed8acc29db}
+      \strng{bibnamehash}{c74d30b0f44a9720a54622ed8acc29db}
+      \strng{authorbibnamehash}{c74d30b0f44a9720a54622ed8acc29db}
+      \strng{authornamehash}{c74d30b0f44a9720a54622ed8acc29db}
+      \strng{authorfullhash}{c74d30b0f44a9720a54622ed8acc29db}
+      \strng{authorfullhashraw}{c74d30b0f44a9720a54622ed8acc29db}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{4th IEEE International Conference on Power Electronics and Drive Systems (IEEE PEDS 2001)}
+      \field{title}{{A Thermal Model for Planar Transformers}}
+      \field{volume}{2}
+      \field{year}{2001}
+      \field{pages}{669\bibrangedash 673}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/PEDS.2001.975399
+      \endverb
+    \endentry
+    \entry{vanderlinde1991design}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=52ea4e452df750a5ee7f3e756bb1916e}{%
+           family={Linde},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=b5c8a5bf34c86291d3085dd6d926a5e6}{%
+           family={Boon},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi A.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=08acd474c787f891573f3d34b82305e7}{%
+           family={Klaassens},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6176bbba72431af1a8f040e41630cf5f}
+      \strng{fullhash}{59a53273b211834f87fa6648a16db4df}
+      \strng{fullhashraw}{59a53273b211834f87fa6648a16db4df}
+      \strng{bibnamehash}{59a53273b211834f87fa6648a16db4df}
+      \strng{authorbibnamehash}{59a53273b211834f87fa6648a16db4df}
+      \strng{authornamehash}{6176bbba72431af1a8f040e41630cf5f}
+      \strng{authorfullhash}{59a53273b211834f87fa6648a16db4df}
+      \strng{authorfullhashraw}{59a53273b211834f87fa6648a16db4df}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{{Design of a High-Frequency Planar Power Transformer in Multilayer Technology}}
+      \field{volume}{38}
+      \field{year}{1991}
+      \field{pages}{135\bibrangedash 141}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/41.88907
+      \endverb
+    \endentry
+    \entry{chen2002volumetric}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=acd539fe7243213259f893511f7e2032}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Rengang},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4f6d3041c250428aea1ab2b04b0b355d}{%
+           family={Canales},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d6f2b26e2b50e389f737db615a2d7427}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6b8e227dbd5ba7131bf256c426dee903}{%
+           family={Wyk},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Pittsburgh, PA, USA}%
+      }
+      \strng{namehash}{c4ee28225f8edc62b961eb7be9db8ddc}
+      \strng{fullhash}{d7c01e0ea1027fd0a570a3a0731f0e18}
+      \strng{fullhashraw}{d7c01e0ea1027fd0a570a3a0731f0e18}
+      \strng{bibnamehash}{d7c01e0ea1027fd0a570a3a0731f0e18}
+      \strng{authorbibnamehash}{d7c01e0ea1027fd0a570a3a0731f0e18}
+      \strng{authornamehash}{c4ee28225f8edc62b961eb7be9db8ddc}
+      \strng{authorfullhash}{d7c01e0ea1027fd0a570a3a0731f0e18}
+      \strng{authorfullhashraw}{d7c01e0ea1027fd0a570a3a0731f0e18}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference Record of the 2002 IEEE Industry Applications Conference. 37th IAS Annual Meeting}
+      \field{title}{{Volumetric Optimal Design of Passive Integrated Power Electronic Module (IPEM) for Distributed Power System (DPS) Front-End DC/DC Converter}}
+      \field{volume}{3}
+      \field{year}{2002}
+      \field{pages}{1758\bibrangedash 1765}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IAS.2002.1043771
+      \endverb
+    \endentry
+    \entry{muhlethaler2011novel}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=7adc1edbb7cdb60bd31f7a64ece25181}{%
+           family={Muhlethaler},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f27f8f73bc9f171f6248cbf2eb5ac473}{%
+           family={Kolar},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=3e76e4bd02e3608d497108bf0ef96974}{%
+           family={Ecklebe},
+           familyi={E\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jeju, South Korea}%
+      }
+      \strng{namehash}{3cd7724b09fab7493bea51a7d919c438}
+      \strng{fullhash}{d6dc9f55bb5bb447fbab99fcc56a8066}
+      \strng{fullhashraw}{d6dc9f55bb5bb447fbab99fcc56a8066}
+      \strng{bibnamehash}{d6dc9f55bb5bb447fbab99fcc56a8066}
+      \strng{authorbibnamehash}{d6dc9f55bb5bb447fbab99fcc56a8066}
+      \strng{authornamehash}{3cd7724b09fab7493bea51a7d919c438}
+      \strng{authorfullhash}{d6dc9f55bb5bb447fbab99fcc56a8066}
+      \strng{authorfullhashraw}{d6dc9f55bb5bb447fbab99fcc56a8066}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{8th International Conference on Power Electronics - ECCE Asia}
+      \field{title}{{A Novel Approach for 3D Air Gap Reluctance Calculations}}
+      \field{year}{2011}
+      \field{pages}{446\bibrangedash 452}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ICPE.2011.5944575
+      \endverb
+    \endentry
+    \entry{ref14}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=0812d86499defe09d5bae02a7dfb5aa4}{%
+           family={Villar},
+           familyi={V\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e86060be3589b5733c1b328c1d474a26}{%
+           family={Viscarret},
+           familyi={V\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=3667f82444ab902dbf980aed95c55afa}{%
+           family={Etxeberria-Otadui},
+           familyi={E\bibinithyphendelim O\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=fa9f8f487e9d9535aa644c664311ec62}{%
+           family={Rufer},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3ea28e8d12b1cae508aaa9c4882a75a}
+      \strng{fullhash}{3941c37496245405aff79c6971f4892e}
+      \strng{fullhashraw}{3941c37496245405aff79c6971f4892e}
+      \strng{bibnamehash}{3941c37496245405aff79c6971f4892e}
+      \strng{authorbibnamehash}{3941c37496245405aff79c6971f4892e}
+      \strng{authornamehash}{b3ea28e8d12b1cae508aaa9c4882a75a}
+      \strng{authorfullhash}{3941c37496245405aff79c6971f4892e}
+      \strng{authorfullhashraw}{3941c37496245405aff79c6971f4892e}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+      \field{number}{10}
+      \field{title}{{Global Loss Evaluation Methods for Nonsinusoidally Fed Medium-Frequency Power Transformers}}
+      \field{volume}{56}
+      \field{year}{2009}
+      \field{pages}{4132\bibrangedash 4140}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TIE.2009.2021174
+      \endverb
+    \endentry
+    \entry{ref15}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=881da96c044f97520ce1720b72de0b46}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{881da96c044f97520ce1720b72de0b46}
+      \strng{fullhash}{881da96c044f97520ce1720b72de0b46}
+      \strng{fullhashraw}{881da96c044f97520ce1720b72de0b46}
+      \strng{bibnamehash}{881da96c044f97520ce1720b72de0b46}
+      \strng{authorbibnamehash}{881da96c044f97520ce1720b72de0b46}
+      \strng{authornamehash}{881da96c044f97520ce1720b72de0b46}
+      \strng{authorfullhash}{881da96c044f97520ce1720b72de0b46}
+      \strng{authorfullhashraw}{881da96c044f97520ce1720b72de0b46}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{number}{1}
+      \field{title}{{Improved Analytical Modeling of Conductive Losses in Magnetic Components}}
+      \field{volume}{9}
+      \field{year}{1994}
+      \field{pages}{127\bibrangedash 131}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/63.285503
+      \endverb
+    \endentry
+    \entry{ref16}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=30366da492032200808f3ae2f5279fcb}{%
+           family={Ouyang},
+           familyi={O\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a769bdc11353d6fea4969892a6ca33b8}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi A.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d373dcf364e5d9fd33c404f038e88f7}
+      \strng{fullhash}{0d373dcf364e5d9fd33c404f038e88f7}
+      \strng{fullhashraw}{0d373dcf364e5d9fd33c404f038e88f7}
+      \strng{bibnamehash}{0d373dcf364e5d9fd33c404f038e88f7}
+      \strng{authorbibnamehash}{0d373dcf364e5d9fd33c404f038e88f7}
+      \strng{authornamehash}{0d373dcf364e5d9fd33c404f038e88f7}
+      \strng{authorfullhash}{0d373dcf364e5d9fd33c404f038e88f7}
+      \strng{authorfullhashraw}{0d373dcf364e5d9fd33c404f038e88f7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{number}{9}
+      \field{title}{{Overview of Planar Magnetic Technology---Fundamental Properties}}
+      \field{volume}{29}
+      \field{year}{2014}
+      \field{pages}{4888\bibrangedash 4900}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TPEL.2013.2283263
+      \endverb
+    \endentry
+    \entry{ref20}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=f48ffd25b9c0634ed11d4d4fb0c39492}{%
+           family={Hataya},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{02dfa643581ce512eaa1f4241f1362de}
+      \strng{fullhash}{02dfa643581ce512eaa1f4241f1362de}
+      \strng{fullhashraw}{02dfa643581ce512eaa1f4241f1362de}
+      \strng{bibnamehash}{02dfa643581ce512eaa1f4241f1362de}
+      \strng{authorbibnamehash}{02dfa643581ce512eaa1f4241f1362de}
+      \strng{authornamehash}{02dfa643581ce512eaa1f4241f1362de}
+      \strng{authorfullhash}{02dfa643581ce512eaa1f4241f1362de}
+      \strng{authorfullhashraw}{02dfa643581ce512eaa1f4241f1362de}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 International Power Electronics Conference (IPEC-Niigata 2018 - ECCE Asia)}
+      \field{title}{{Verification of the Reduction of the Copper Loss by the Thin Coil Structure for Induction Cookers}}
+      \field{year}{2018}
+      \field{pages}{410\bibrangedash 415}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.23919/IPEC.2018.8507826
+      \endverb
+    \endentry
+    \entry{ref25}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=19c47c3e5b33327c20e3630520b2ce5d}{%
+           family={Foo},
+           familyi={F\bibinitperiod},
+           given={B.\bibnamedelimi X.},
+           giveni={B\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=f3f9d3335aaa86b185a606ad0cf3af6e}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi L.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=9525ccd168f2eb4c55a5525226eb1595}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{053c2b55a876c11a921da4c47a586852}
+      \strng{fullhash}{07be1659317b00fab6bdd88e49ce6719}
+      \strng{fullhashraw}{07be1659317b00fab6bdd88e49ce6719}
+      \strng{bibnamehash}{07be1659317b00fab6bdd88e49ce6719}
+      \strng{authorbibnamehash}{07be1659317b00fab6bdd88e49ce6719}
+      \strng{authornamehash}{053c2b55a876c11a921da4c47a586852}
+      \strng{authorfullhash}{07be1659317b00fab6bdd88e49ce6719}
+      \strng{authorfullhashraw}{07be1659317b00fab6bdd88e49ce6719}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE Applied Power Electronics Conference and Exposition (APEC)}
+      \field{title}{{A Step-by-Step Guide to Extracting Winding Resistance from an Impedance Measurement}}
+      \field{year}{2017}
+      \field{pages}{861\bibrangedash 867}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/APEC.2017.7930797
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

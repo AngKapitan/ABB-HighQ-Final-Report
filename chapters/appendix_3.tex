@@ -1,0 +1,76 @@
+This appendix provides a detailed calculation example using the proposed analytical design methodology. The design space provided in Figure \ref{fig:trans_design} was generated computationally using Python, directly implementing the theoretical models established in Chapter 3. The calculations detailed here evaluate the specific flatwise-wound transformer design chosen for Tr2F, defined by $N_{\mathrm{p}} = 8$ turns and a wire width of $w_{\mathrm{wire}} = 0.30 \text{ mm}$.
+
+\subsection*{Dimensioning and Volume Calculation}
+To extract the physical footprint and total volume of the transformer, the wire height and core window dimensions must first be analytically defined. As established in Chapter 3, to satisfy a target current density ($J_{\mathrm{target}}$) under the nominal primary current ($I_{\mathrm{p,rms}}$), the required wire height ($h_{\mathrm{wire}}$) is governed by:
+$$h_{\mathrm{wire}} = \frac{I_{\mathrm{p,rms}}}{J_{\mathrm{target}} \cdot w_{\mathrm{wire}}}$$
+Substituting the design values ($J_{\mathrm{target}} = 5.0 \times 10^6 \text{ A/m}^2$, $I_{\mathrm{p,rms}} = 10.0 \text{ A}$):
+$$h_{\mathrm{wire}} = \frac{10.0 \text{ A}}{(5.0 \times 10^6 \text{ A/m}^2) \cdot (0.3 \times 10^{-3} \text{ m})} = 6.67 \times 10^{-3} \text{ m} = 6.67 \text{ mm}$$
+
+The core window height ($l_{\mathrm{win}}$) and width ($w_{\mathrm{win}}$) are geometrically constrained by the copper height, the total number of turns ($N_{\mathrm{p}}$), the inter-turn spacing ($d_{\mathrm{inter}}$), and the boundary clearances to the core ($d_{\mathrm{clear}}$):
+$$l_{\mathrm{win}} = h_{\mathrm{wire}} + 2 d_{\mathrm{clear}}$$
+$$w_{\mathrm{win}} = 2 N_{\mathrm{p}} w_{\mathrm{wire}} + (2 N_{\mathrm{p}} - 1) d_{\mathrm{inter}} + 2 d_{\mathrm{clear}}$$
+Substituting $d_{\mathrm{clear}} = 1.0 \text{ mm}$ and $d_{\mathrm{inter}} = 0.1 \text{ mm}$:
+$$l_{\mathrm{win}} = 6.67 \text{ mm} + 2 (1.0 \text{ mm}) = 8.67 \text{ mm}$$
+$$w_{\mathrm{win}} = 2(8)(0.3 \text{ mm}) + (16 - 1)(0.1 \text{ mm}) + 2(1.0 \text{ mm}) = 8.30 \text{ mm}$$
+This closely matches a square window profile ($8.67 \text{ mm} \approx 8.30 \text{ mm}$), balancing the core and copper cross-sections.
+
+As detailed in Chapter 3, the core length ($l_{\mathrm{core}}$) is determined by equating the total magnetic circuit reluctance ($\mathcal{R}_{\mathrm{tot}}$) to the required magnetizing inductance ($L_{\mathrm{m}} = 200 \ \upmu\text{H}$):
+$$\mathcal{R}_{\mathrm{tot}} = \mathcal{R}_{\mathrm{core}} + \mathcal{R}_{\mathrm{gap}} = \frac{N_{\mathrm{p}}^2}{L_{\mathrm{m}}}$$
+A binary search algorithm was used to solve the 3D reluctance network across the center and outer legs taking into account the fringing effect correction described in \cite{muhlethaler2011novel}. The core length converges to $l_{\mathrm{core}} = 50.86 \text{ mm}$. 
+
+The physical core dimensions ($l_{\mathrm{core}} \times w_{\mathrm{core}} \times h_{\mathrm{core}}$) are geometrically formulated by adding the outer core legs ($w_{\mathrm{out}} = 5.0 \text{ mm}$) and center leg width ($w_{\mathrm{cent}} = 10.0 \text{ mm}$):
+$$w_{\mathrm{core}} = w_{\mathrm{cent}} + 2 w_{\mathrm{win}} + 2 w_{\mathrm{out}} = 10.0 \text{ mm} + 2 (8.3 \text{ mm}) + 2 (5.0 \text{ mm}) = 36.6 \text{ mm}$$
+$$h_{\mathrm{core}} = l_{\mathrm{win}} + 2 w_{\mathrm{out}} = 8.67 \text{ mm} + 2 (5.0 \text{ mm}) = 18.67 \text{ mm}$$
+
+The overall transformer bounding box dimensions ($l_{\mathrm{trans}} \times w_{\mathrm{trans}} \times h_{\mathrm{trans}}$) are formulated by incorporating the winding extensions outside the core window:
+$$l_{\mathrm{trans}} = l_{\mathrm{core}} + 2 w_{\mathrm{win}} = 50.86 \text{ mm} + 2 (8.3 \text{ mm}) = 67.46 \text{ mm}$$
+$$w_{\mathrm{trans}} = w_{\mathrm{core}} = 36.6 \text{ mm}$$
+$$h_{\mathrm{trans}} = h_{\mathrm{core}} = 18.67 \text{ mm}$$
+The final volumetric bounding box ($V_{\mathrm{box}}$) evaluates to:
+$$V_{\mathrm{box}} = l_{\mathrm{trans}} \cdot w_{\mathrm{trans}} \cdot h_{\mathrm{trans}} = (67.46 \text{ mm}) \cdot (36.6 \text{ mm}) \cdot (18.67 \text{ mm}) = 46,116 \text{ mm}^3 \approx 46.1 \text{ cm}^3$$
+
+Subtracting the non-ferrite window and air gap areas from the core footprint yields the true magnetic core volume ($V_{\mathrm{core}}$):
+$$V_{\mathrm{core}} = l_{\mathrm{core}} \left[ (w_{\mathrm{core}} \cdot h_{\mathrm{core}}) - \left( 2(w_{\mathrm{win}} \cdot l_{\mathrm{win}}) + l_{\mathrm{g}}(2 w_{\mathrm{out}} + w_{\mathrm{cent}}) \right) \right]$$
+$$ \begin{aligned}
+    V_{\mathrm{core}} &= l_{\mathrm{core}} \left[ (w_{\mathrm{core}} \cdot h_{\mathrm{core}}) - \left( 2(w_{\mathrm{win}} \cdot l_{\mathrm{win}}) + l_{\mathrm{g}}(2 w_{\mathrm{out}} + w_{\mathrm{cent}}) \right) \right] \\
+    &= 50.86 \left[ (36.6 \cdot 18.67) - \left( 2(8.3 \cdot 8.67) + 0.1(2(5.0) + 10.0) \right) \right] \text{ mm}^3 \\
+    &= 27,332 \text{ mm}^3 = 2.73 \times 10^{-5} \text{ m}^3
+\end{aligned} $$
+
+\subsection*{Winding Geometry and Copper Loss}
+With the physical dimensions locked, the unrolled length of the fully interleaved copper winding is analytically modeled as an arithmetic series. The inner perimeter of the first turn ($lt_1$) is derived from the center leg dimensions and internal clearances:
+$$lt_1 = 2 \left[ (w_{\mathrm{cent}} + w_{\mathrm{wire}} + 2 d_{\mathrm{clear}}) + (l_{\mathrm{core}} + w_{\mathrm{wire}} + 2 d_{\mathrm{clear}}) \right]$$
+$$lt_1 = 2 \left[ (10.0 + 0.3 + 2.0) \text{ mm} + (50.86 + 0.3 + 2.0) \text{ mm} \right] = 130.92 \text{ mm}$$
+Because the flatwise turns stack radially outward, each subsequent turn increases in perimeter by a constant geometric difference $d$:
+$$d = 8 (w_{\mathrm{wire}} + d_{\mathrm{inter}}) = 8 (0.3 \text{ mm} + 0.1 \text{ mm}) = 3.2 \text{ mm}$$
+The total combined length of the primary and secondary copper ($S_{\mathrm{total}}$) is given by the series sum for $n = 2 N_{\mathrm{p}}$ total turns:
+$$S_{\mathrm{total}} = N_{\mathrm{p}} \left[ 2 lt_1 + (2 N_{\mathrm{p}} - 1) d \right]$$
+$$S_{\mathrm{total}} = 8 \left[ 2(130.92 \text{ mm}) + (16 - 1)(3.2 \text{ mm}) \right] = 2,478.7 \text{ mm} = 2.479 \text{ m}$$
+Applying the fundamental resistance equation with the conductivity of copper ($\sigma = 5.96 \times 10^7 \text{ S/m}$), the base DC resistance ($R_{\mathrm{dc}}$) is:
+$$ \begin{aligned}
+    R_{\mathrm{dc}} &= \frac{S_{\mathrm{total}}}{\sigma \cdot h_{\mathrm{wire}} \cdot w_{\mathrm{wire}}} \\
+    &= \frac{2.479 \text{ m}}{(5.96 \times 10^7 \text{ S/m}) \cdot (6.67 \times 10^{-3} \text{ m}) \cdot (0.3 \times 10^{-3} \text{ m})} \\
+    &= 20.79 \times 10^{-3} \ \Omega = 20.79 \text{ m}\Omega
+\end{aligned} $$
+To account for high-frequency skin and proximity effects (Chapter 3), the skin depth ($\delta$) at $f_{\mathrm{s}} = 28.5 \text{ kHz}$ is calculated:
+$$\delta = \frac{1}{\sqrt{\pi f_{\mathrm{s}} \mu_0 \sigma}} = \frac{1}{\sqrt{\pi (28,500 \text{ Hz}) (4\pi \times 10^{-7} \text{ H/m}) (5.96 \times 10^7 \text{ S/m})}} = 0.386 \text{ mm}$$
+The penetration ratio ($\xi$) dictates the 1D Dowell's resistance factor ($F_{\mathrm{ac}}$). Moreover, for a fully-interleaved scenario, $m=1$ for all layers.
+$$\xi = \frac{w_{\mathrm{wire}}}{\delta} = \frac{0.300 \text{ mm}}{0.386 \text{ mm}} = 0.777$$
+$$F_{\mathrm{ac}} = \frac{\xi}{2} \left[ \frac{\sinh \xi + \sin \xi}{\cosh \xi - \cos \xi} + (2m^2-1)\frac{\sinh \xi - \sin \xi}{\cosh \xi + \cos \xi} \right] \approx 1.032$$
+The total AC resistance ($R_{\mathrm{ac}}$) and resultant winding loss ($P_{\mathrm{wind}}$) are thus formulated as:
+$$R_{\mathrm{ac}} = F_{\mathrm{ac}} R_{\mathrm{dc}} = (1.032) \cdot (20.79 \text{ m}\Omega) = 21.46 \text{ m}\Omega$$
+$$P_{\mathrm{wind}} = I_{\mathrm{p,rms}}^2 R_{\mathrm{ac}} = (10.0 \text{ A})^2 \cdot (21.46 \times 10^{-3} \ \Omega) = 2.15 \text{ W}$$
+
+\subsection*{Core Loss Computation}
+As defined by Faraday's Law in Chapter 3, the core loss is driven by the flux density variation ($\Delta B$) over the switching half-period ($T_{\mathrm{s}}/2$). Using the cross-sectional core area $A_{\mathrm{calc}} = l_{\mathrm{core}} \cdot w_{\mathrm{cent}} = 508.6 \text{ mm}^2$:
+$$\Delta B = \frac{V_{\mathrm{pri,pk}} (T_{\mathrm{s}}/2)}{N_{\mathrm{p}} A_{\mathrm{calc}}}$$
+$$\Delta B = \frac{(100 \text{ V}) \cdot (17.54 \times 10^{-6} \text{ s})}{8 \cdot (508.6 \times 10^{-6} \text{ m}^2)} = 0.431 \text{ T}$$
+Subtracting the $400 \text{ ns}$ deadtime yields an active excitation time of $17.14 \ \upmu\text{s}$, driving the time derivative of the magnetic flux:
+$$\frac{dB}{dt} = \frac{\Delta B}{t_{\mathrm{active}}} = \frac{0.431 \text{ T}}{17.14 \times 10^{-6} \text{ s}} = 25,151 \text{ T/s}$$
+The core loss is evaluated utilizing the Improved Generalized Steinmetz Equation (iGSE) with the manufacturer material parameters ($k = 0.0620, \alpha = 1.7066, \beta = 2.535$). The waveform coefficient ($k_i$) is defined analytically as:
+$$k_i = \frac{k}{2\pi^{\alpha-1} \int_{0}^{2\pi} \vert \cos \theta \vert^{\alpha} 2^{\beta-\alpha} \, d\theta} \approx 2.331 \times 10^{-3}$$
+Substituting the parameters yields the instantaneous volumetric loss density. Multiplied by the total derived core volume ($V_{\mathrm{core}} = 2.73 \times 10^{-5} \text{ m}^3$), the time-averaged core loss ($P_{\mathrm{core}}$) resolves to:
+$$P_{\mathrm{core}} = \frac{V_{\mathrm{core}}}{T_{\mathrm{s}}} \int_{0}^{T_{\mathrm{s}}} k_i \left| \frac{dB}{dt} \right|^{\alpha} (\Delta B)^{\beta-\alpha} \, dt$$
+$$P_{\mathrm{core}} = \frac{2.73 \times 10^{-5}}{35.09 \times 10^{-6}} \int_{0}^{35.09 \times 10^{-6}} (2.331 \times 10^{-3}) (25,151)^{1.7066} (0.431)^{0.8284} \, dt = 1.03 \text{ W}$$
+Summing the analytically derived copper and core losses yields the total simulated power dissipation for the selected configuration:
+$$P_{\mathrm{total}} = P_{\mathrm{wind}} + P_{\mathrm{core}} \approx 2.15 \text{ W} + 1.03 \text{ W} = 3.17 \text{ W}$$

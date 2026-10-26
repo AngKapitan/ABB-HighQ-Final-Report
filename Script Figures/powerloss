@@ -1,0 +1,115 @@
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import matplotlib.patheffects as pe
+import numpy as np
+
+# --- SET GLOBAL FONT TO ARIAL ---
+plt.rcParams.update({
+    'font.family': 'sans-serif',
+    'font.sans-serif': ['Arial']
+})
+
+# --- DATA INPUT ---
+labels = ['1 kW\n(TrE-1 / TrF-1)', '10 kW\n(TrE-10 / TrF-10)', '100 kW\n(TrE-100 / TrF-100)']
+
+# Components: [1kW, 10kW, 100kW]
+# Edgewise (Conv.)
+edge_core = np.array([0.87, 4.95, 27.66])
+edge_wind = np.array([2.24, 14.50, 107.90])
+edge_al = np.array([0.09, 1.38, 13.10])
+edge_totals = edge_core + edge_wind + edge_al
+
+# Flatwise (Proposed)
+flat_core = np.array([0.87, 4.91, 27.27])
+flat_wind = np.array([2.33, 15.09, 126.40])
+flat_al = np.array([0.09, 1.39, 12.66])
+flat_totals = flat_core + flat_wind + flat_al
+
+# --- PLOTTING SETUP ---
+plt.style.use('seaborn-v0_8-whitegrid')
+width = 0.35
+x = np.arange(len(labels))
+
+# Bar Colors
+color_flat = '#084594'  # Deep Blue for Flatwise
+color_edge = '#4292c6'  # Medium Blue for Edgewise
+
+# High-Contrast Trendline Colors
+line_flat = '#084594'   # User selected Deep Blue
+line_edge = '#4292c6'   # User selected Medium Blue
+
+# Hatch Patterns for Stack Components
+h_core = ''      # Solid fill for Core Loss
+h_wind = '///'   # Diagonal lines for Winding Loss
+h_al = '...'     # Dots for Aluminum Base Loss
+
+# Shadow Effect Constants
+shift_x = 0.04
+shadow_color = '#777777'
+shadow_alpha = 0.3
+
+# Match dimensions of the temperature plot
+fig, ax = plt.subplots(figsize=(8, 8))
+
+# 1. Shadows (Combined totals for the shadow outline)
+ax.bar(x - width/2 + shift_x, edge_totals, width, color=shadow_color, alpha=shadow_alpha, zorder=1)
+ax.bar(x + width/2 + shift_x, flat_totals, width, color=shadow_color, alpha=shadow_alpha, zorder=1)
+
+# 2. Edgewise Bars (Stacked)
+ax.bar(x - width/2, edge_core, width, color=color_edge, edgecolor='black', hatch=h_core, zorder=3)
+ax.bar(x - width/2, edge_wind, width, bottom=edge_core, color=color_edge, edgecolor='black', hatch=h_wind, zorder=3)
+ax.bar(x - width/2, edge_al, width, bottom=edge_core + edge_wind, color=color_edge, edgecolor='black', hatch=h_al, zorder=3)
+
+# 3. Flatwise Bars (Stacked)
+ax.bar(x + width/2, flat_core, width, color=color_flat, edgecolor='black', hatch=h_core, zorder=3)
+ax.bar(x + width/2, flat_wind, width, bottom=flat_core, color=color_flat, edgecolor='black', hatch=h_wind, zorder=3)
+ax.bar(x + width/2, flat_al, width, bottom=flat_core + flat_wind, color=color_flat, edgecolor='black', hatch=h_al, zorder=3)
+
+# 4. High-Contrast Trendlines Connecting the Tops
+line_halo = [pe.Stroke(linewidth=5, foreground='white'), pe.Normal()]
+
+ax.plot(x - width/2, edge_totals, color=line_edge, linestyle='--', linewidth=2.5,
+         marker='o', markersize=8, markerfacecolor='white', markeredgecolor=line_edge, 
+         markeredgewidth=2, path_effects=line_halo, zorder=4)
+
+ax.plot(x + width/2, flat_totals, color=line_flat, linestyle='--', linewidth=2.5,
+         marker='s', markersize=7, markerfacecolor='white', markeredgecolor=line_flat, 
+         markeredgewidth=2, path_effects=line_halo, zorder=4)
+
+# 5. Annotations
+text_halo = [pe.Stroke(linewidth=3.5, foreground='white'), pe.Normal()]
+
+for i in range(len(x)):
+    # Total Loss Text (Top of bars, nudged slightly higher to clear the markers)
+    ax.text(x[i] - width/2, edge_totals[i] + 4.5, f'{edge_totals[i]:.2f} W', 
+            ha='center', va='bottom', fontsize=14, fontweight='bold', 
+            color='#222222', path_effects=text_halo, zorder=5)
+    
+    ax.text(x[i] + width/2, flat_totals[i] + 4.5, f'{flat_totals[i]:.2f} W', 
+            ha='center', va='bottom', fontsize=14, fontweight='bold', 
+            color='#222222', path_effects=text_halo, zorder=5)
+
+# 6. Formatting (Matching the 8x8 plot scales)
+ax.set_ylabel('Power Loss (W)', fontsize=18, fontweight='bold')
+ax.set_xlabel('Transformer Operating Power', fontsize=16, fontweight='bold', labelpad=25)
+ax.set_xticks(x)
+ax.set_xticklabels(labels, fontsize=20)
+ax.set_ylim(0, 225) # Matched to previous chart height
+ax.tick_params(axis='y', labelsize=20)
+ax.tick_params(axis='x', pad=25) # Push main labels down to clear the sub-labels
+ax.grid(axis='y', linestyle='--', alpha=0.7, zorder=0)
+
+# 7. Custom Legend
+edge_patch = mpatches.Patch(facecolor=color_edge, edgecolor='black', label='Edgewise-wound (Conv.)')
+flat_patch = mpatches.Patch(facecolor=color_flat, edgecolor='black', label='Flatwise-wound (Proposed)')
+core_patch = mpatches.Patch(facecolor='white', edgecolor='black', hatch=h_core, label='$P_{core}$ (Core Loss)')
+wind_patch = mpatches.Patch(facecolor='white', edgecolor='black', hatch=h_wind, label='$P_{wind}$ (Winding Loss)')
+al_patch = mpatches.Patch(facecolor='white', edgecolor='black', hatch=h_al, label='$P_{Al}$ (Aluminum Base Loss)')
+
+ax.legend(handles=[edge_patch, flat_patch, core_patch, wind_patch, al_patch], 
+          loc='upper left', fontsize=13, frameon=True, framealpha=1, shadow=True)
+
+plt.tight_layout()
+plt.savefig('thermal_loss_breakdown_matched_lines.pdf', format='pdf', bbox_inches='tight')
+plt.savefig('thermal_loss_breakdown_matched_lines.svg', format='svg', bbox_inches='tight')
+plt.show()

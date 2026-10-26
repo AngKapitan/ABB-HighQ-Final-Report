@@ -1,0 +1,113 @@
+This section details the simulation setup for the 3D Finite Element Analysis (FEA) environment Ansys.
+
+\section*{Simulation Apparatus}
+The parametric and finite element analyses were executed on a high-performance engineering workstation optimized for heavy electromagnetic and thermal simulation workloads. The essential hardware specifications of the workstation are summarized in Table \ref{tab:workstation}. The software utilized for all evaluations was Ansys 2023 R1.
+
+\begin{table}[h!]
+    \centering
+    \caption{Workstation Hardware Specifications}
+    \begin{tabular}{ll}
+        \hline
+        \textbf{Component} & \textbf{Specification} \\
+        \hline \hline
+        System Model & Dell Precision 5860 Tower \\
+        Operating System & Windows 11 Pro for Workstations \\
+        Processor & Intel Xeon w7-2475X (20 Cores, 40 Threads) \\
+        Physical Memory (RAM) & 256 GB \\
+        System Architecture & 64-bit (x64-based PC) \\
+        \hline
+    \end{tabular}
+    \label{tab:workstation}
+\end{table}
+
+Ansys Electronics was specifically used. The Ansys Maxwell Environment was utilized for the Electromagnetic Simulations (Eddy Current) and Electrostatic SImulations (Electrostatic)
+
+\section*{Material Parameters}
+Before going in detail with the simulation environment setup, materials were setup first to ensure that the physical phenomena can be reproduced. It is important to note that the simulation is not aimed as a 1:1 correspondence with the actual model, as there will be many differences when devices are evaluated in real life. 
+
+Particularly, the materials referred to the parts of the transformer described in Figure \ref{fig:flatwise_3D_trans} and \ref{fig:edgewise_2D_trans} pertaining to the EE core, windings, TIM between core and windings, and additional aluminum at the dead space were modeled in the materials modeler. 
+
+It is important to note that because thermal simulations were performed, the thermal properties of the materials, specifically the \textbf{specific heat} and \textbf{thermal conductivity} were set appropriately according to data sheets or material property databases. The properties assigned to copper, the LP10A core, the Thermal Interface Material (TIM), air, and aluminum are consolidated in Table \ref{tab:material_properties}.
+
+\begin{table}[h!]
+    \centering
+    \caption{Material Properties Assigned in Ansys FEA Simulations}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{lccccc}
+        \hline
+        \textbf{Property (Unit)} & \textbf{Copper} & \textbf{Ferrite} & \textbf{TIM} & \textbf{Air} & \textbf{Aluminum} \\
+        \hline \hline
+        Relative Permittivity & 1 & 12 & 9 & 1.0006 & 1 \\
+        Relative Permeability & 0.999991 & 3400 & 1 & 1.0000004 & 1.000021 \\
+        Bulk Conductivity (S/m) & $5.8 \times 10^7$ & 0.25 & 0 & 0 & $3.8 \times 10^7$ \\
+        Thermal Conductivity (W/m$\cdot$C) & 400 & 4 & 10 & 0.0261 & 237.5 \\
+        Mass Density (kg/m$^3$) & 8933 & 4800 & 3700 & 1.1614 & 2689 \\
+        Specific Heat (J/kg$\cdot$C) & 385 & 750 & 712 & 1005 & 951 \\
+        Young's Modulus (N/m$^2$) & $1.2 \times 10^{11}$ & $1.19 \times 10^{11}$ & $1.35 \times 10^{11}$ & - & $6.9 \times 10^{10}$ \\
+        Poisson's Ratio & 0.38 & 0 & 0.25 & - & 0.31 \\
+        Thermal Expansion Coefficient (1/C) & $1.77 \times 10^{-5}$ & $1.0 \times 10^{-6}$ & $2.54 \times 10^{-6}$ & 0.00333 & $2.33 \times 10^{-5}$ \\
+        Core Loss Model & - & Power Ferrite & - & - & - \\
+        Steinmetz Coefficient $C_m$ ($k$) & - & 0.0620 & - & - & - \\
+        Steinmetz Coefficient $X$ ($\alpha$) & - & 1.7066 & - & - & - \\
+        Steinmetz Coefficient $Y$ ($\beta$) & - & 2.5355 & - & - & - \\
+        Thermal Diffusivity (m$^2$/s) & - & - & - & $2.88 \times 10^{-5}$ & - \\
+        Molecular Mass (kg/mol) & - & - & - & 0.028966 & - \\
+        Dynamic Viscosity (kg/m$\cdot$s) & - & - & - & $1.84 \times 10^{-5}$ & - \\
+        \hline
+    \end{tabular}}
+    \label{tab:material_properties}
+\end{table}
+
+A few additional notes are given on the material property assignments:
+\begin{itemize}
+    \item For the copper and aluminum, the default indicated by Ansys is used.
+    \item For the air utilized in the region for natural convection in the thermal simulation, the default indicated by Ansys was used.
+    \item For the TIM, the material by Laird Tflex SF10 was utilized. The applicable parameters from the datasheet were input into the software. 
+    \item For the magnetic core, the core-loss density-magnetic flux density $P_{\mathrm{cv}}-B$ curve was input into the software as a power ferrite, after which the modeler gave the steinmetz parameters. The material used was MBT1 by JFE Corporation.  Although it was not the exact LP10A Mn-Zn ferrite core used in the experimental prototype, the magnetic properties and core loss characteristics within the evaluated operating region are highly comparable and very close to each other. In fact, the steinmetz parameters of both materials lead to almost same loss given the operating conditions when computed theoretically and by simulation. As a final note, the core was set with constant initial permeability. This was because the transformer was gapped in all legs, making the changes negligible becasue the gap dominates the overall reluctance of the magnetic circuit. Gaps were added to prevent saturation in the core.
+\end{itemize}  
+
+\section*{Mesh Settings}
+\subsection*{Electromagnetic Simulation: Ansys Maxwell 3D Eddy Current}
+A 3D simulation was utilized for the electromagnetic simulation. The core and aluminum components were given a 5 mm maximum length on selection. The copper winding was given a finer 2 mm length on selection. Although a finer mesh and lower error percentage is preferred, this was what the workstation could handle before running out of memory across all the parametric simulation cases. Symmetry techniques could be explored in future work, or 2D simulation might also be worth exploring. However, the researchers preferred having both core and copper losses simulated together to allow for a close simulation of the real operating condition. Moreover, the windings were modeled as solid, discrete conductors to explicitly resolve the high-frequency eddy current distributions without exceeding hardware limits.
+
+\subsection*{Electrostatic Simulation: Ansys Maxwell 2D Electrostatic}
+
+A 2D simulation was performed to evaluate the maximum electric field strength $E$-field in kV/mm between the primary and secondary winding layers, and also between the windings, core and the TIM. Because the longitudinal geometry of the planar transformer window is highly uniform, a 2D cross-sectional analysis provides sufficient accuracy while drastically reducing computational overhead. More detailed meshing was performed through selecting all elements and setting the mesh to edge-cut inside selection with a length of less than 0.05 mm. 
+
+\subsection*{Thermal Simulation: Ansys Icepak 3D Steady-state}
+A 3D simulation was performed to evaluate the temperature distribution over the component. The global mesh was configured utilizing the Auto Mesh Setting. The resolution slider was positioned to the maximum "Fine" setting to yield a "Large" mesh count. Additionally, the Facet Level was set to its maximum value (slider fully to the right) to ensure accurate representation of the component geometries.
+
+\section*{Simulation Setup Settings}
+
+\subsection*{Ansys Maxwell 3D Eddy Current Setup}
+The electromagnetic evaluation utilized an adaptive mesh setup to capture core and copper losses with the following criteria:
+\begin{itemize}
+    \item \textbf{Air Region:} The internal non-solid domains were assigned as a vacuum ($\mu_r = 1$), which is electromagnetically indistinguishable from air for the purpose of magnetic loss evaluation. Furthermore, the external bounding region was configured with 0\% padding to strictly conserve computational memory. Moreover, this was chosen as the the critical fringing flux is expected to be localized entirely within the internal core window.
+    \item \textbf{Adaptive Passes:} A maximum of 20 passes was permitted, with a target percent error of 1\%. The solver required a minimum of 2 passes and at least 1 converged pass.
+    \item \textbf{Refinement:} The mesh refinement was set to 30\% per pass.
+    \item \textbf{Matrix Solution:} The matrix was configured to solve after the last pass.
+\end{itemize}
+
+\subsection*{Ansys Maxwell 2D Electrostatic Setup}
+The electrostatic evaluation utilized an adaptive mesh setup to capture core and copper losses with the following criteria:
+\begin{itemize}
+    \item \textbf{Air Region:} The internal non-solid domains were assigned with air, which is the chosen insulation material and also the surrounding environment of the transforme. Furthermore, the external bounding region was configured with 50\% padding in the $+Z$, $-Z$, and $+X$ directions.
+    \item \textbf{Adaptive Passes:} A maximum of 20 passes was permitted, with a target percent error of 0.5\%. The solver required a minimum of 10 passes and at least 1 converged pass.
+    \item \textbf{Refinement:} The mesh refinement was set to 70\% per pass.
+    \item \textbf{Matrix Solution:} The matrix was configured to solve after the last pass.
+    \item \textbf{Boundary Conditions:} A balloon charge boundary condition was placed on the bounding walls of the region on the $+Z$, $-Z$, and $+X$ directions. Symmetry was placed on the $-X$ bounding wall.
+\end{itemize}
+
+
+\subsection*{Ansys Icepak 3D Steady State Setup}
+The Ansys Icepak configuration managed the thermal domains using the following exact parameters and meshing strategies. The ambient temperature was set to $25^\circ$C.
+\begin{itemize}
+    \item \textbf{Air Region:} The computational domain was padded with a Percentage Offset of 1000 in the $+X$, $-X$, $+Y$, $-Y$, $+Z$, and $-Z$ directions. This is to ensure that natural convection plumes and fluid boundaries are fully captured without artificial truncation.
+    \item \textbf{General Solver Settings:} The problem was set to solve for Temperature and Flow within a Laminar flow regime, including gravity. A maximum of 10000 iterations was specified.
+    \item \textbf{Convergence Criteria:} The residual convergence limits were rigorously configured to 0.001 for Flow, 1e-07 for Energy, 0.001 for Turbulent Kinetic Energy, 0.001 for Turbulent Dissipation Rate, 0.001 for Specific Dissipation, 1e-06 for Discrete Ordinates, and 1e-07 for Joule Heating.
+    \item \textbf{Initial Conditions:} The initial velocities were set to 0 m/s for $X$ and $Y$, and 0.000980665 m/s for $Z$, with the temperature initialized at the ambient temperature.
+    \item \textbf{Radiation Model:} The Discrete Ordinates radiation model was employed, utilizing 2 Theta Divisions, 2 Phi Divisions, 2 Theta Pixels, and 2 Phi Pixels. Flow Iterations per Radiation Iteration were set to 10.
+    \item \textbf{Boundary Conditions:} An ambient pressure and zero-velocity opening were set in the $+Y$ and $-Y$ directions to simulate an environment without any external disturbances except the cooling system.
+\end{itemize}
+
+Coupling between the Ansys Maxwell 3D Eddy Current solver and Ansys Icepak was established to map the volumetric power loss profile from the electromagnetic simulation directly into the thermal domain as the primary heat source through an EM Loss boundary condition. The corresponding parts were linked to each other. The TIM practically had no dielectric loss, and thus was excluded. The electromagnetic simulations were simulated as needed before being mapped into the thermal domain.

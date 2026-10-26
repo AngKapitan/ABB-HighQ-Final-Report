@@ -1,0 +1,45 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Power Electronics}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}USB Power Delivery}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Topologies for implementing USB Power Delivery 3.1}{4}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}PFC Boost, LLC, and Buck Converter Combination Circuit}{4}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}PFC Boost with AHB Flyback}{5}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Conventional PFC Flyback}{6}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Two-phase Interleaved Flyback PFC Rectifier}{7}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Concept of an Integrated Transformer for the Two-phase Interleaved Flyback PFC Rectifier}{9}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Objectives of the Study}{10}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Signficance of the Study}{11}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Flow of the Paper}{11}{section.1.7}%
+\contentsline {chapter}{\numberline {2}An Overview of Integrated Magnetics}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Integrated Magnetics}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Common Integrated Magnetics Techniques}{14}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Integrated Transformer by Ishihara et. al. (2015)}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Integrated Transformer by Taheri et. al. (2011)}{17}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Integrated Transformer by Qian and Lehman (2007)}{19}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Integrated Magnetic Component by Yan et. al. (2003)}{21}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Proposed Integrated Transformer}{23}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Operational Analysis and Core Volume Analysis}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Circuit and Transformer Operational Analysis}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Saturation Magnetic Flux Density Analysis}{38}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Miniaturization Effect of the Proposed Transformer}{45}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Transformer Design Method}{51}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Turns Ratio}{51}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Saturation Magnetic Flux Density}{52}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Magnetizing Inductance}{54}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Number of Turns for the Transformers }{55}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Air Gap Design}{57}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Design Method Verification}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Prototype Circuit for Evaluation}{61}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Prototype Transformer Design and Size Reduction}{64}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Simulation Verification}{71}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Flux Operation}{75}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Two-phase Operation}{78}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Single-phase Operation}{82}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Comparison of Efficiency between the Circuit with the Conventional and Proposed Transformer}{84}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Investigation of the Effect of Coupling to Circuit Operation}{87}{subsection.5.3.5}%
+\contentsline {section}{\numberline {5.4}Experimental Verification}{90}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Two-phase AC Operation}{92}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Single-phase Operation}{97}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Converter Efficiency}{99}{subsection.5.4.3}%
+\contentsline {chapter}{\numberline {6}Summary and Conclusion}{100}{chapter.6}%
+\contentsline {chapter}{Bibliography}{103}{chapter*.72}%
