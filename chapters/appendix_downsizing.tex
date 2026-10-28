@@ -1,4 +1,4 @@
-This appendix details the theoretical derivation for the transformer downsizing effect presented in the Introduction, Figure \ref{fig:downsizing}. The volume comparison between a standard 50 Hz line-frequency transformer (LFT) and a high-frequency solid-state transformer (HFT) is evaluated using the fundamental area-product method.
+This appendix details the theoretical derivation for the transformer downsizing effect presented in the Introduction, Figure \ref{fig:downsizing}. The volume comparison between a standard 50 Hz line-frequency transformer (LFT) and a high-frequency solid-state transformer (HFT) is evaluated using the fundamental area-product method. This appendix also presents the motivation for the volume scaling through the AP Method presented in Chapter 6.
 
 \subsection*{The Area-Product Volume Equation}
 The overall physical volume of a transformer ($Vol_{\mathrm{trans}}$) is proportional to the area product of its core and can be analytically estimated using the following relationship:
@@ -46,3 +46,76 @@ This demonstrates that transitioning to a $1 \text{ kHz}$ square-wave operation 
 At $10 \text{ kHz}$ ($10,000 \text{ Hz}$):
 $$ \frac{Vol_{\mathrm{HFT}}}{Vol_{\mathrm{LFT}}} = \left( \frac{55.5}{10000} \right)^{3/4} = (0.00555)^{0.75} \approx 0.0204 $$
 At the upper limit of $10 \text{ kHz}$, the volume footprint collapses to just $2.0\%$ of the traditional line-frequency design, thoroughly validating the core motivation for integrating high-frequency magnetic components in modern power conversion stages.
+
+\subsection*{Volume Scaling through the Area Product}
+A more complete notion of what has been provided previously in this appendix, and what has been discussed in Chapter \ref{chap:AP}.
+
+The $AP$ method provides a fundamental analytical relationship connecting the physical geometry of a transformerspecifically the magnetic core cross-sectional area $A_{\mathrm{c}}$ and the core window area $A_{\mathrm{w}}$ to the electrical and magnetic operating constraints of the power converter \cite{Kimura2015, Colonel2004} . This section provides an appendix outlines the step-by-step mathematical derivation of the $AP$ equation and the three-quarter power volume scaling law ($Vol_{\mathrm{trans}} \propto AP^{3/4}$).
+
+\subsubsection*{Fundamental Derivation of the AP  Equation}
+The RMS voltages across the primary winding ($V_{\mathrm{p,rms}}$) and secondary winding ($V_{\mathrm{s,rms}}$) are related to the excitation frequency $f$, number of turns ($N_{\mathrm{p}}, N_{\mathrm{s}}$), core cross-sectional area $A_{\mathrm{c}}$, and maximum magnetic flux density $B_{\mathrm{m}}$ as follows:
+\begin{align}
+    V_{\mathrm{p,rms}} &= K_{\mathrm{f}} f N_{\mathrm{p}} A_{\mathrm{c}} B_{\mathrm{m}}\label{eq:app_faraday_p} \\
+    V_{\mathrm{s,rms}} &= K_{\mathrm{f}} f N_{\mathrm{s}} A_{\mathrm{c}} B_{\mathrm{m}}\label{eq:app_faraday_s}
+\end{align}
+where $K_{\mathrm{f}}$ is the waveform coefficient determined by the excitation voltage waveform ($K_{\mathrm{f}} = 4.44$ for sinusoidal wave excitation and $K_{\mathrm{f}} = 4.0$ for square-wave excitation with a $50\%$ duty cycle).
+
+Next, the window utilization factor (or space factor) $K_{\mathrm{u}}$ defines the ratio of the total bare conductor cross-sectional area within the core window to the total available physical window area $A_{\mathrm{w}}$:
+\begin{equation}
+    K_{\mathrm{u}} = \frac{N_{\mathrm{p}} A_{\mathrm{p,coil}} + N_{\mathrm{s}} A_{\mathrm{s,coil}}}{A_{\mathrm{w}}} \label{eq:app_Ku}
+\end{equation}
+where $A_{\mathrm{p,coil}}$ and $A_{\mathrm{s,coil}}$ are the cross-sectional areas of a single primary and secondary conductor turn, respectively. Assuming an equal RMS current density $J_{\mathrm{m}}$ is maintained across both the primary and secondary windings:
+\begin{equation}
+    J_{\mathrm{m}} = J_{\mathrm{m,p}} = J_{\mathrm{m,s}} = \frac{I_{\mathrm{p,rms}}}{A_{\mathrm{p,coil}}} = \frac{I_{\mathrm{s,rms}}}{A_{\mathrm{s,coil}}}. \label{eq:app_Jm}
+\end{equation}
+Substituting $A_{\mathrm{p,coil}}$ and $A_{\mathrm{s,coil}}$ from Eq.~\ref{eq:app_Jm} into Eq.~\ref{eq:app_Ku} yields the window area constraint in terms of winding currents:
+\begin{equation}
+    K_{\mathrm{u}} A_{\mathrm{w}} = N_{\mathrm{p}} \left( \frac{I_{\mathrm{p,rms}}}{J_{\mathrm{m}}} \right) + N_{\mathrm{s}} \left( \frac{I_{\mathrm{s,rms}}}{J_{\mathrm{m}}} \right). \label{eq:app_KuAw}
+\end{equation}
+
+Rearranging Eq.~\ref{eq:app_faraday_p} and Eq. \ref{eq:app_faraday_s} to solve for $N_{\mathrm{p}}$ and $N_{\mathrm{s}}$, and substituting them into Eq.~\ref{eq:app_KuAw} gives:
+\begin{equation}
+    K_{\mathrm{u}} A_{\mathrm{w}} = \frac{V_{\mathrm{p,rms}}}{K_{\mathrm{f}} f A_{\mathrm{c}} B_{\mathrm{m}}} \left( \frac{I_{\mathrm{p,rms}}}{J_{\mathrm{m}}} \right) + \frac{V_{\mathrm{s,rms}}}{K_{\mathrm{f}} f A_{\mathrm{c}} B_{\mathrm{m}}} \left( \frac{I_{\mathrm{s,rms}}}{J_{\mathrm{m}}} \right). \label{eq:app_KuAw_sub}
+\end{equation}
+Defining the input apparent power as $P_{\mathrm{in}} = V_{\mathrm{p,rms}} I_{\mathrm{p,rms}}$, the output apparent power as $P_{\mathrm{o}} = V_{\mathrm{s,rms}} I_{\mathrm{s,rms}}$, and the total apparent power handling capability of the transformer as $P_{\mathrm{t}} = P_{\mathrm{in}} + P_{\mathrm{o}}$ (where $P_{\mathrm{t}} \approx 2P_{\mathrm{o}}$ for a high-efficiency isolation stage), Eq.~\ref{eq:app_KuAw_sub} simplifies to:
+\begin{equation}
+    K_{\mathrm{u}} A_{\mathrm{w}} = \frac{P_{\mathrm{in}} + P_{\mathrm{o}}}{K_{\mathrm{f}} f A_{\mathrm{c}} B_{\mathrm{m}} J_{\mathrm{m}}} = \frac{P_{\mathrm{t}}}{K_{\mathrm{f}} f A_{\mathrm{c}} B_{\mathrm{m}} J_{\mathrm{m}}}. \label{eq:app_Pt}
+\end{equation}
+Finally, multiplying both sides by $A_{\mathrm{c}}$ and dividing by $K_{\mathrm{u}}$ establishes the fundamental $AP$ formulation:
+\begin{equation}
+    AP = A_{\mathrm{c}} \cdot A_{\mathrm{w}} = \frac{P_{\mathrm{t}}}{K_{\mathrm{f}} K_{\mathrm{u}} f B_{\mathrm{m}} J_{\mathrm{m}}}. \label{eq:app_AP_final}
+\end{equation}
+
+\subsubsection*{Relationship Between the $AP$ and Transformer Volume}
+To establish how the physical three-dimensional volume of the transformer ($Vol_{\mathrm{trans}}$) scales with the Area Product ($AP$), dimensional analysis is applied using a characteristic linear dimension $l$:
+\begin{enumerate}
+    \item \textbf{Volume Dimensionality:} The three-dimensional volume of a geometrically similar transformer core and winding assembly is proportional to the cube of its characteristic linear dimension $l$:
+    \begin{equation}
+        Vol_{\mathrm{trans}} = K_1 \cdot l^3, \label{eq:app_vol_l3}
+    \end{equation}
+    where $K_1$ is a dimensionless constant relating physical volume to the characteristic length $l$.
+    
+    \item \textbf{Area-Product Dimensionality:} Because both the window area $A_{\mathrm{w}}$ and the core cross-sectional area $A_{\mathrm{c}}$ have dimensions of length squared ($l^2$), their product ($AP$) is proportional to the fourth power of the characteristic linear dimension:
+    \begin{equation}
+        AP = A_{\mathrm{w}} \cdot A_{\mathrm{c}} = K_2 \cdot l^4, \label{eq:app_ap_l4}
+    \end{equation}
+    where $K_2$ is a dimensionless proportionality constant relating the area product to $l^4$.
+\end{enumerate}
+
+Solving Eq.~\ref{eq:app_ap_l4} for the characteristic linear dimension $l$ yields:
+\begin{equation}
+    l = \left( \frac{AP}{K_2} \right)^{\frac{1}{4}}. \label{eq:app_l_scale}
+\end{equation}
+Cubing both sides of Eq.~\ref{eq:app_l_scale} gives:
+\begin{equation}
+    l^3 = \left[ \left( \frac{AP}{K_2} \right)^{\frac{1}{4}} \right]^3 = \left( \frac{AP}{K_2} \right)^{\frac{3}{4}}. \label{eq:app_l3_scale}
+\end{equation}
+Substituting Eq.~\ref{eq:app_l3_scale} into the volume expression in Eq.~\ref{eq:app_vol_l3} establishes the fundamental volume scaling relationship:
+\begin{equation}
+    Vol_{\mathrm{trans}} = K_1 \left( \frac{AP}{K_2} \right)^{\frac{3}{4}} = \frac{K_1}{K_2^{0.75}} \cdot AP^{0.75} = K_{\mathrm{vol}} \cdot AP^{\frac{3}{4}}, \label{eq:app_vol_ap}
+\end{equation}
+where $K_{\mathrm{vol}} = K_1 / K_2^{0.75}$ is a dimensionless constant determined exclusively by the geometric shape and aspect ratio of the core. Substituting Eq.~\ref{eq:app_AP_final} into Eq.~\ref{eq:app_vol_ap} yields the complete analytical volume equation:
+\begin{equation}
+    Vol_{\mathrm{trans}} = K_{\mathrm{vol}} \left( \frac{P_{\mathrm{t}}}{K_{\mathrm{f}} K_{\mathrm{u}} f B_{\mathrm{m}} J_{\mathrm{m}}} \right)^{\frac{3}{4}}. \label{eq:app_vol_full}
+\end{equation}
+Equation~\ref{eq:app_vol_full} proves that for a fixed operating frequency and electromagnetic loading ($B_{\mathrm{m}}, J_{\mathrm{m}}, K_{\mathrm{u}}$), the physical volume of a transformer scales with the three-quarters power ($0.75$) of its apparent power rating ($Vol_{\mathrm{trans}} \propto P_{\mathrm{t}}^{3/4} \propto AP^{3/4}$), while any single linear dimension scales with the one-quarter power ($l \propto AP^{1/4}$).

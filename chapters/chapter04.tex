@@ -1,4 +1,6 @@
-The proposed flatwise-wound transformer and its edgewise equivalent are simulated in Ansys Electronics using the Maxwell and Icepak solvers to check if the transformer design results in an electrically and thermally viable transformer. This chapter details the  simulation conditions to carry out this evaluation. The results of the electromagnetic, electrostatic, and thermal simulations are described. Moreover, a geometric analysis is also performed to see the performance of the proposed winding under different profiles. 
+The proposed flatwise-wound transformer and its edgewise equivalent are simulated in Ansys Electronics using the Maxwell and Icepak solvers to check if the transformer design results in an electrically and thermally viable transformer. This chapter details the simulation conditions to carry out this evaluation. The results of the electromagnetic, electrostatic, and thermal simulations are described. Moreover, a geometric analysis is also performed to see the performance of the proposed winding under different profiles. 
+
+It should also be emphasized that the primary objective of this simulation analysis is to compare the trends in temperature between the winding architectures. Due to the inherent mismatches between ideal simulation environments and practical hardware, particularly regarding complex high-frequency losses and exact thermal boundaries, these simulations serve strictly as a comparative evaluation tool.
 
 \section{Simulation Conditions}
 The proposed flatwise-wound transformer and its edgewise equivalent are simulated in Ansys Electronics. To ensure a fair comparison, key parameters were kept identical for both designs, especially the magnetizing inductance $L_{\mathrm{m}}$, number of turns $N_{\mathrm{p}}$, the window area $A_{\mathrm{win}}$, and the current density $J$. This equivalence ensures that the fundamental heat generation mechanisms in the windings and core are consistent, allowing for a direct comparison of the thermal dissipation capabilities of each structure. 
@@ -28,8 +30,8 @@ Using the design method presented in Section 3, the design parameters decided fo
 \end{table}
 
 More detailed setup conditions are presented in the Appendix: \nameref{app:ansys}.
-\subsection{Electromagnetic Simulation Conditions}
-Electromagnetic simulation using Ansys Maxwell was performed to evaluate if the transformers will not saturate and if a correct magnetizing inductance was obtained. To approximate the square wave excitation from the CLLC converter while saving computational resources, a sinusoidal excitation with an equivalent RMS value was applied \cite{ref21}. To ensure that the transformer is simulated in its actual operating condition, providing both core and winding losses, the primary side is excited with a 100 V rms sinusoidal voltage, and the secondary side is excited with 10 A rms sinusoidal current in the opposite direction, representing the conditions at full load. The Eddy Current Solver was used for this set of simulations. The losses of each loss-generating element, which includes the aluminum, EE-core, and the copper winding, are coupled with the same model in the Icepak Environment to assume heat generation in the transformer is similar to its real operation. A simplified transformer model was used for the transformers as shown in Figure \ref{fig:sim_model_edgewise} and \ref{fig:sim_model_flatwise} respectively.
+\subsection{Electromagnetic Simulation Conditions}\label{electromagneticsim}
+Electromagnetic simulation using Ansys Maxwell was performed to evaluate if the transformers will not saturate and if a correct magnetizing inductance was obtained. To approximate the square wave excitation from the CLLC converter while saving computational resources, a sinusoidal excitation with an equivalent RMS value was applied \cite{ref21}. To ensure that the transformer is simulated in its actual operating condition, providing both core and winding losses, the primary side is excited with a 100 V rms sinusoidal voltage, and the secondary side is excited with 10 A rms sinusoidal current in the opposite direction, representing the conditions at full load. The Eddy Current Solver was used for this set of simulations. The losses of each loss-generating element, which includes the aluminum, EE-core, and the copper winding, are coupled with the same model in the Icepak Environment to assume heat generation in the transformer is similar to its real operation. A simplified transformer model was used for the transformers as shown in Figure \ref{fig:sim_model_edgewise} and Figure \ref{fig:sim_model_flatwise} respectively.
 
 \begin{figure}[h!]
     \centering
@@ -44,6 +46,8 @@ Electromagnetic simulation using Ansys Maxwell was performed to evaluate if the 
     \caption{Simulation models used of the (a) edgewise-wound (conventional) and (b) flatwise-wound (proposed) transformers.}
     \label{fig:simmodels}
 \end{figure}
+
+It is to be noted that the electromagnetic losses were coupled one-way into Ansys Icepak for the steady-state thermal analysis. This unidirectional coupling was deliberately selected to maintain a straightforward comparative baseline. While ferrite core losses are temperature-dependent, this characteristic varies significantly among different materials and introduces unnecessary complexity for a relative evaluation. 
 
 \subsection{Electrostatic Simulation Conditions}
 Electrostatic simulation using Ansys Maxwell was performed to evaluate if the transformer will avoid breakdown in operating conditions. To evaluate the isolation performance, designers set the secondary side voltage to 0 V (grounded) and assign a test DC voltage according to industry standard. Since the transformers in this study are a small-scale version of their counterparts, test voltages of 100 V and 200 V are applied to the primary side. The Electrostatic Solver was used for this set of simulations. A 2D simulation was utilized in this context since the transformer facial profile is symmetric around its geometry. The model used in the setup is shown in Figure \ref{fig:v_edge}a and \ref{fig:v_flat}a for the edgewise and flatwise configurations respectively.
@@ -119,7 +123,7 @@ The forced-air cooling scenario further amplifies this advantage. The edgewise-w
 \subsection{Electrical Properties and Losses}
 The electrical properties derived from the simulation are summarized in Table \ref{tab:loss_comparison}. The comparison demonstrates that both winding configurations exhibit highly comparable electrical characteristics. The flatwise structure incurs only a marginal increase in winding loss (2.33 W vs. 2.24 W) and interwinding capacitance (1.72 nF vs. 1.45 nF) compared to its edgewise counterpart. Despite this very small penalty in total power loss ($+$2.5\%), the flatwise structure achieves a drastically lower peak temperature and uniform heat distribution capability, demonstrating that the benefit of reduced internal thermal resistance far outweighs the minor increase in electrical loss. More characterization on the effect of each configuration to the parasitics is a highly recommended next step of the research.
 
-\begin{table}[h!]
+\begin{table}[H]
     \caption{Electrical Properties and Losses of the Simulated Transformers}
     \centering
     % Auto-fits table to column width

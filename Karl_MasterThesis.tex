@@ -1,3 +1,6 @@
+% for %f in (*.pdf) do pdfcrop "%f" "%f"
+
+
 \documentclass[12pt]{report}
 
 \usepackage[utf8]{inputenc}
@@ -5,6 +8,7 @@
 \graphicspath{ {images/} }
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{threeparttable}
 \usepackage{float}
 \usepackage[a4paper,width=150mm,top=35mm,bottom=25mm,bindingoffset=0mm]{geometry}
 \usepackage{fancyhdr}
@@ -62,8 +66,8 @@
 
 \doublespacing
 
-\chapter*{Acknowledgements}
-\input{Acknowledgements}
+\chapter*{Research Overview}
+\input{Research_Intro.tex}
 
 \chapter{Introduction}
 \pagenumbering{arabic} 
@@ -79,7 +83,7 @@
 \chapter{Simulation Analysis}
 \input{chapters/chapter04}
 
-\chapter{Experimental Evaluation}
+\chapter{Experimental Evaluation} \label{chap5}
 \input{chapters/chapter05}
 
 \chapter{Scalability Analysis}
@@ -88,12 +92,6 @@
 
 \chapter{Summary and Conclusion}
 \input{chapters/conclusion}
-
-\singlespacing
-\phantomsection
-\addcontentsline{toc}{chapter}{Research Achievements in NU PELab}
-\chapter*{Research Achievements in Nagoya University Power Electronics Laboratory}
-\input{chapters/ResearchAchievements.tex}
 
 \singlespacing
 \printbibliography[heading=bibintoc,title={Bibliography}]
@@ -115,7 +113,7 @@
 \input{chapters/appendix.tex}
 \doublespacing
 \phantomsection
-\chapter{Sample Simulations for Section 2.4}\label{app:simulation}
+\chapter{Sample Circuit Simulations at Low and High Power}\label{app:simulation}
 \input{chapters/appendix_2.tex}
 
 \phantomsection
@@ -125,4 +123,13 @@
 \phantomsection
 \chapter{Simulation Settings}\label{app:ansys}
 \input{chapters/appendix_4.tex}
+
+\phantomsection
+\chapter{Repeat Experiment for Thermal Characteristics Evaluation}\label{app:longresult}
+\input{chapters/appendix_longresult.tex}
+
+\phantomsection
+\chapter{Detailed Simulation Results (Scalability Analysis)}\label{app:detailedsim}
+\input{chapters/appendix_detailedsim.tex}
+
 \end{document}

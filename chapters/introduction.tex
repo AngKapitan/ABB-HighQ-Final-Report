@@ -45,12 +45,12 @@ As highlighted in recent state-of-the-art reviews of SST technologies, the viabi
 
 With the advent of high frequency operation, according to Faraday's Law, operating at elevated frequencies allows the magnetic core area and the number of winding turns to be drastically reduced. This results in a system that offers a fraction of the size and weight of a traditional line transformer while providing enhanced control over bidirectional power flow and fault isolation  \cite{10667423}, \cite{6342269}, \cite{8962031}, \cite{czyz2021}. 
 
-An example is shown in Figure \ref{app:downsizing}. By the Area Product Method, scaling from 60 Hz to 10 kHz can might be able to provide about 98\% reduction in transformer volume, as shown in Figure \ref{fig:downsizing}a.  Details are shown in Appendix \nameref{app:downsizing}. But, as a trade-off, with more core and winding losses at higher frequency, thermal management becomes a problem for the HFT, as shown in the example provided in Figure \ref{fig:downsizing}b \cite{downsizing}. 
+An example is shown in Figure \ref{app:downsizing}. By the Area Product Method, scaling from 60 Hz to 10 kHz can might be able to provide about 98\% reduction in transformer volume, as shown in Figure \ref{fig:downsizing}a.  Details are shown in the Appendix: \nameref{app:downsizing}. But, as a trade-off, with more core and winding losses at higher frequency, thermal management becomes a problem for the HFT, as shown in the example provided in Figure \ref{fig:downsizing}b \cite{downsizing}. 
 
 \begin{figure}
     \centering
     \includegraphics[width=\columnwidth]{figures_intro/downsizing.pdf}
-    \caption{Operation at higher frequency brings benefits with a trade-off: (a)downsizing effect from the LFT as an effect of HF operation, details shown in Appendix \nameref{app:downsizing}; (b) thermal management trade-off shown in \cite{downsizing}.}\label{fig:downsizing}
+    \caption{Operation at higher frequency brings benefits with a trade-off: (a) downsizing effect from the LFT as an effect of HF operation, details shown in Appendix \nameref{app:downsizing}; (b) thermal management trade-off shown in \cite{downsizing}.}\label{fig:downsizing}
     
 \end{figure}
 
@@ -128,7 +128,7 @@ To address this, a low-profile planar structure is proposed that utilizes solid 
 \par This study has three main goals. Firstly, this study aims to propose a novel flatwise-wound planar transformer geometry that establishes the internal heat extraction from a restrictive series path to a highly conductive parallel path. Important parameters, such as the AC winding losses, core losses, and magnetizing inductance, are examined to properly optimize the physical dimensions of the transformer. A 1D Thermal Network is also proposed to qualitatively examine the heat extraction mechanism of the proposed flatwise structure. Secondly, this study aims to confirm the feasibility and thermal superiority of the proposed transformer in comprehensive 3D Multi-Physics Finite Element Analysis (FEA). The uniform heat distribution and the elimination of the series thermal bottleneck are confirmed in simulation. Lastly, this study aims to experimentally verify the thermal stability offered by the proposed flatwise design. A continuous full-load operational comparison against its conventional,edgewise-wound counterpart is also performed in this study. The advantage of the proposed configuration is also compared both in simulation and experiment to its conventional counterpart. The concept is proven with a 1-kW, 100V:100 V, 28.5-kHz bidirectional CLLC resonant converter, which is the small-scale counterpart of its high-power 100 kW, 1000V:1000V CLLC for the isolation stage of the SST. 
 
 \section{Significance of the Study}
-\par This study is expected to contribute significantly to the existing field of high-power isolation transformers for SST applications. The geometric method presented in this study improves the intrinsic thermal management of the transformer, thereby reducing the dependence on active cooling systems and unlocking higher limits for volumetric power density. Furthermore, while extensive research exists on optimizing the electrical parameters of planar magnetics, studies specifically focusing on the internal thermal path packaging and physical layout optimization are less common. This research directly contributes to bridging the gap between electromagnetic performance and mechanical thermal reliability.
+\par This study is expected to contribute significantly to the existing field of high-power isolation transformers for SST applications. The geometric method presented in this study improves the intrinsic thermal management of the transformer, thereby reducing the dependence on active cooling systems and unlocking higher limits for volumetric power density. Furthermore, while extensive research exists on optimizing the electrical parameters of planar magnetics, studies specifically focusing on the internal thermal path packaging and physical layout optimization are less common. This research directly contributes to bridging the gap between electromagnetic performance and mechanical thermal reliability. Lastly, as a scalability analysis was performed, it provides a lot of insights as to what could be done in future iterations of this work.
 \section{Flow of the Paper}
 The flow of the paper is structured as follows:
 \begin{itemize}
@@ -136,7 +136,8 @@ The flow of the paper is structured as follows:
 \item \textbf{Chapter 3} details the design methodology of the proposed flatwise-wound transformer. It establishes the intrinsic thermal management concept through 1D thermal models, and the analytical equations used to design the transformer.
 \item \textbf{Chapter 4} examines the proposed transformer through 3D FEA multi-physics simulations, providing a direct thermal and electrical comparison between the flatwise and conventional edgewise geometries.
 \item \textbf{Chapter 5} presents an experimental comparison. A 1 kW proof-of-concept comparison between the proposed flatwise-wound and conventional edgewise-wound structure is evaluated using a representative model with a square window area under continuous operation.
-\item \textbf{Chapter 6} provides the conclusions drawn from the present status of the work and outlines recommendations for future high-power scaling.
+\item \textbf{Chapter 6} presents a conservative, thermal scalability analysis in terms of spatial geometry and operational power. The analysis in Chapter 4 is extended to examine how the thermal benefit of the proposed configuration performs in different spatial profiles and its potential to operate at higher power levels has been examined. 
+\item \textbf{Chapter 7} provides the conclusions drawn from the present status of the work and outlines recommendations for future research prospects.
 \end{itemize}
 
 \section{About This Work}
@@ -145,3 +146,5 @@ This research project is performed in collaboration with ABB Oy and HighQ Power 
 Portions of this study were presented at the \textit{IEEE Applied Power Electronics Conference and Exposition (APEC)}, held in San Antonio, Texas, USA in March 2026. The content included in that presentation focuses primarily on the analytical design and thermo-electromagnetic simulation discussed in Chapter 3 and Chapter 4.
 
 Furthermore, more findings from this work were presented at the \textit{International Conference on Materials and Systems for Sustainability (ICMaSS)} held in Nagoya, Japan in December 2025 and the \textit{IEEE International Power Electronics Conference (IPEC)}, held in Nagasaki, Japan in June 2026. The content of those presentations focuses on the geometric thermal analysis detailed in Chapter 4 and the experimental comparison presented in Chapter 5.
+
+

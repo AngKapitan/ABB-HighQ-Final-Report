@@ -2064,6 +2064,86 @@
       \verb 10.1109/APEC.2017.7930797
       \endverb
     \endentry
+    \entry{Kimura2015}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=4f7f8e1b2b43365f7afa0e918839c190}{%
+           family={Kimura},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=57dec85f589ab8b12c56efe64793b0f1}{%
+           family={Aoto},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7c58096e2131f352865916d45dc6ad14}{%
+           family={Ishihara},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=91fbd6136eef8862be9d5a43265d0681}{%
+           family={Imaoka},
+           familyi={I\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=61d7d130a9eebdd02b61065743dd4ca1}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d94f9ff2d6e87e44fd9ca002bad58c0a}
+      \strng{fullhash}{1b0981b626ead06b370a4b3268ad6f21}
+      \strng{fullhashraw}{1b0981b626ead06b370a4b3268ad6f21}
+      \strng{bibnamehash}{1b0981b626ead06b370a4b3268ad6f21}
+      \strng{authorbibnamehash}{1b0981b626ead06b370a4b3268ad6f21}
+      \strng{authornamehash}{d94f9ff2d6e87e44fd9ca002bad58c0a}
+      \strng{authorfullhash}{1b0981b626ead06b370a4b3268ad6f21}
+      \strng{authorfullhashraw}{1b0981b626ead06b370a4b3268ad6f21}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 IEEE Energy Conversion Congress and Exposition (ECCE)}
+      \field{title}{Interleaved {Active} {Clump} {Forward} {Converter} with {Novel} {Integrated} {Magnetic} {Components}}
+      \field{year}{2015}
+      \field{pages}{6029\bibrangedash 6036}
+      \range{pages}{8}
+    \endentry
+    \entry{Colonel2004}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=37774641fc28640238eb225b0548a44d}{%
+           family={Colonel},
+           familyi={C\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=82ca5a01f3129f3289d70704adb108f4}{%
+           family={McLyman},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL, USA}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{fullhash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{fullhashraw}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{bibnamehash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{authorbibnamehash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{authornamehash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{authorfullhash}{a40c70e24b1ff8e549be9ae647c0c246}
+      \strng{authorfullhashraw}{a40c70e24b1ff8e549be9ae647c0c246}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Transformer and {Inductor} {Design} {Handbook}}
+      \field{year}{2004}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
